@@ -28,8 +28,8 @@
                     "name": "Fabric (fabric-loader)",
                     "type": "Fabric",
                     "artifact": {
-                        "size": 1369300,
-                        "MD5": "5af850610bb4a450d78a60e7240ce2fd",
+                        "size": 1387452,
+                        "MD5": "67FDAC9560FDAE4C5E89FA62394F5802",
                         "url": "https://lib.hotcup.app/modpack/CakeCraftNetwork/versions/fabricmc-1.20.4/fabric-loader-0.16.7-1.20.4.json"
                     },
                     "subModules": [
@@ -38,8 +38,8 @@
                             "name": "Fabric (version.json)",
                             "type": "VersionManifest",
                             "artifact": {
-                                "size": 2847,
-                                "MD5": "74f4b7b30ec8ea54dc305a726af1d01a",
+                                "size": 2857,
+                                "MD5": "3C22CC194CA5709F1E6871945889746E",
                                 "url": "https://lib.hotcup.app/modpack/CakeCraftNetwork/versions/fabricmc-1.20.4/fabric-loader-0.16.7.jar"
                             }
                         },
