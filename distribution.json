@@ -1,0 +1,438 @@
+{
+  "version": "1.0.0",
+  "rss": "https://hotcup.app/index.php?forums/-/index.rss",
+  "discord": {
+    "clientId": "1218554556036808855",
+    "smallImageText": "Minecraft",
+    "smallImageKey": "minecraft"
+  },
+  "servers": [
+    {
+      "id": "CakeCraftNetworkHighschool-1.20.4",
+      "name": "CakeCraftNetwork (Highschool)",
+      "description": "CakeCraftNetworkHighschool Running Minecraft 1.20.4 (Fabric v0.16.9)",
+      "icon": null,
+      "version": "1.0.0",
+      "address": "cch.hotcup.app:25565",
+      "minecraftVersion": "1.20.4",
+      "discord": {
+        "shortId": "CakeCraft Network | Highschool",
+        "largeImageText": "CakeCraft Network",
+        "largeImageKey": "cakecraft"
+      },
+      "mainServer": true,
+      "autoconnect": true,
+      "modules": [
+        {
+          "id": "net.fabricmc:fabric-loader:0.16.9",
+          "name": "Fabric (fabric-loader)",
+          "type": "Fabric",
+          "artifact": {
+            "size": 1387357,
+            "MD5": "27a6ef87676ce6316c777d81c1cd2962",
+            "url": "https://lib.hotcup.app/repo/lib/net/fabricmc/fabric-loader/0.16.9/fabric-loader-0.16.9.jar"
+          },
+          "subModules": [
+            {
+              "id": "1.20.4-fabric-0.16.9",
+              "name": "Fabric (version.json)",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 2857,
+                "MD5": "179afd7ad97521da1d154d554f04bfc2",
+                "url": "https://lib.hotcup.app/repo/versions/1.20.4-fabric-0.16.9/1.20.4-fabric-0.16.9.json"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm:9.7.1",
+              "name": "Fabric (asm)",
+              "type": "Library",
+              "artifact": {
+                "size": 126093,
+                "MD5": "e2cdd32d198ad31427d298eee9d39d8d",
+                "url": "https://lib.hotcup.app/repo/lib/org/ow2/asm/asm/9.7.1/asm-9.7.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-analysis:9.7.1",
+              "name": "Fabric (asm-analysis)",
+              "type": "Library",
+              "artifact": {
+                "size": 35126,
+                "MD5": "4cd9e7178dfb85371bba3077e40cd514",
+                "url": "https://lib.hotcup.app/repo/lib/org/ow2/asm/asm-analysis/9.7.1/asm-analysis-9.7.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-commons:9.7.1",
+              "name": "Fabric (asm-commons)",
+              "type": "Library",
+              "artifact": {
+                "size": 73459,
+                "MD5": "8344aea3c8b7d707e9d35a62710e77c9",
+                "url": "https://lib.hotcup.app/repo/lib/org/ow2/asm/asm-commons/9.7.1/asm-commons-9.7.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-tree:9.7.1",
+              "name": "Fabric (asm-tree)",
+              "type": "Library",
+              "artifact": {
+                "size": 51939,
+                "MD5": "e85029f613b6469989cc7cf53fe06b74",
+                "url": "https://lib.hotcup.app/repo/lib/org/ow2/asm/asm-tree/9.7.1/asm-tree-9.7.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-util:9.7.1",
+              "name": "Fabric (asm-util)",
+              "type": "Library",
+              "artifact": {
+                "size": 94519,
+                "MD5": "36d373a9cd6cad9b35db9f984c6b4bbb",
+                "url": "https://lib.hotcup.app/repo/lib/org/ow2/asm/asm-util/9.7.1/asm-util-9.7.1.jar"
+              }
+            },
+            {
+              "id": "net.fabricmc:sponge-mixin:0.15.4+mixin.0.8.7",
+              "name": "Fabric (sponge-mixin)",
+              "type": "Library",
+              "artifact": {
+                "size": 1494834,
+                "MD5": "991ca8be2c408fe19eb64014d8a18243",
+                "url": "https://lib.hotcup.app/repo/lib/net/fabricmc/sponge-mixin/0.15.4+mixin.0.8.7/sponge-mixin-0.15.4+mixin.0.8.7.jar"
+              }
+            },
+            {
+              "id": "net.fabricmc:intermediary:1.20.4",
+              "name": "Fabric (intermediary)",
+              "type": "Library",
+              "artifact": {
+                "size": 608319,
+                "MD5": "3a1cade1634c518db6147c9771686ea9",
+                "url": "https://lib.hotcup.app/repo/lib/net/fabricmc/intermediary/1.20.4/intermediary-1.20.4.jar"
+              }
+            }
+          ]
+        },
+        {
+          "id": "com.ishland:c2me:0.2.0+alpha.11.72@jar",
+          "name": "Concurrent Chunk Management Engine",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1289505,
+            "url": "https://lib.hotcup.app/servers/CakeCraftNetworkHighschool-1.20.4/fabricmods/required/c2me-fabric-mc1.20.4-0.2.0+alpha.11.72.jar",
+            "MD5": "22dc5cc9aa098e3273539a750b08da3c"
+          }
+        },
+        {
+          "id": "nl.enjarai:cicada:0.8.4-beta.1+1.20.2-1.20.4@jar",
+          "name": "CICADA",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 79427,
+            "url": "https://lib.hotcup.app/servers/CakeCraftNetworkHighschool-1.20.4/fabricmods/required/cicada-lib-0.9.0+1.20.2-1.20.4.jar",
+            "MD5": "47f9ee02e74aad3c72548c95ceae6190"
+          }
+        },
+        {
+          "id": "me.shedaniel.autoconfig.example:cloth-config:13.0.138@jar",
+          "name": "Cloth Config v13",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1154870,
+            "url": "https://lib.hotcup.app/servers/CakeCraftNetworkHighschool-1.20.4/fabricmods/required/cloth-config-13.0.138-fabric.jar",
+            "MD5": "fe340d88340db91313eb5d50febcbb81"
+          }
+        },
+        {
+          "id": "generated.fabricmod:debugify:1.20.4+1.1@jar",
+          "name": "Debugify",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 270096,
+            "url": "https://lib.hotcup.app/servers/CakeCraftNetworkHighschool-1.20.4/fabricmods/required/Debugify-1.20.4+1.1.jar",
+            "MD5": "584c3fa19ba42fa9e54a4f8a6d59fc5a"
+          }
+        },
+        {
+          "id": "nl.enjarai.doabarrelroll:do_a_barrel_roll:3.6.0+1.20.4@jar",
+          "name": "Do a Barrel Roll",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 503060,
+            "url": "https://lib.hotcup.app/servers/CakeCraftNetworkHighschool-1.20.4/fabricmods/optionalon/do_a_barrel_roll-fabric-3.6.0+1.20.4.jar",
+            "MD5": "276168167aae335cc94e578455b26dff"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "net.lostluma.dynamic_fps.impl.textile.compat:dynamic_fps:3.7.4@jar",
+          "name": "Dynamic FPS",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 184740,
+            "url": "https://lib.hotcup.app/servers/CakeCraftNetworkHighschool-1.20.4/fabricmods/required/dynamic-fps-3.7.4+minecraft-1.20.2-fabric.jar",
+            "MD5": "e6361ed1bb6b1f0f5081617aa5270424"
+          }
+        },
+        {
+          "id": "foundationgames.enhancedblockentities:enhancedblockentities:0.10.1+1.20.4@jar",
+          "name": "Enhanced Block Entities",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 330603,
+            "url": "https://lib.hotcup.app/servers/CakeCraftNetworkHighschool-1.20.4/fabricmods/required/enhancedblockentities-0.10.1+1.20.4.jar",
+            "MD5": "4258c4e9763224b9d6927441e5042e00"
+          }
+        },
+        {
+          "id": "dev.tr7zw:entityculling:1.7.0@jar",
+          "name": "EntityCulling",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 66734,
+            "url": "https://lib.hotcup.app/servers/CakeCraftNetworkHighschool-1.20.4/fabricmods/required/entityculling-fabric-1.7.0-mc1.20.4.jar",
+            "MD5": "5461298680341a5aa73d29899731e0fb"
+          }
+        },
+        {
+          "id": "generated.fabricmod:essential-container:1.0.0@jar",
+          "name": "Essential-container",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 54050097,
+            "url": "https://lib.hotcup.app/servers/CakeCraftNetworkHighschool-1.20.4/fabricmods/optionalon/essential_1-3-4-3_fabric_1-20-4.jar",
+            "MD5": "64cbb3d17f05b28e6b0e2bd123e4ef56"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "generated.fabricmod:fabric-api:0.97.2+1.20.4@jar",
+          "name": "Fabric API",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2187410,
+            "url": "https://lib.hotcup.app/servers/CakeCraftNetworkHighschool-1.20.4/fabricmods/required/fabric-api-0.97.2+1.20.4.jar",
+            "MD5": "2733c159c2f7628983a96b442ca3f823"
+          }
+        },
+        {
+          "id": "generated.fabricmod:ferritecore:6.0.3@jar",
+          "name": "FerriteCore",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 125100,
+            "url": "https://lib.hotcup.app/servers/CakeCraftNetworkHighschool-1.20.4/fabricmods/required/ferritecore-6.0.3-fabric.jar",
+            "MD5": "a684cfcdbc32eddaf78782fb4e5762f4"
+          }
+        },
+        {
+          "id": "generated.fabricmod:immediatelyfast:1.3.0+1.20.4@jar",
+          "name": "ImmediatelyFast",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 250123,
+            "url": "https://lib.hotcup.app/servers/CakeCraftNetworkHighschool-1.20.4/fabricmods/required/ImmediatelyFast-Fabric-1.3.0+1.20.4.jar",
+            "MD5": "07f1c4f1d90fdb3bc415ae69e1764277"
+          }
+        },
+        {
+          "id": "link.infra:indium:1.0.31+mc1.20.4@jar",
+          "name": "Indium",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 105350,
+            "url": "https://lib.hotcup.app/servers/CakeCraftNetworkHighschool-1.20.4/fabricmods/required/indium-1.0.31+mc1.20.4.jar",
+            "MD5": "86d20afc613763546f51452ef893be82"
+          }
+        },
+        {
+          "id": "generated.fabricmod:iris:1.7.2+mc1.20.4@jar",
+          "name": "Iris",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2703697,
+            "url": "https://lib.hotcup.app/servers/CakeCraftNetworkHighschool-1.20.4/fabricmods/required/iris-1.7.2+mc1.20.4.jar",
+            "MD5": "fa3647d1891a719b268c636236d989c2"
+          }
+        },
+        {
+          "id": "me.steinborn.krypton.mod.shared:krypton:0.2.6@jar",
+          "name": "Krypton",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 167163,
+            "url": "https://lib.hotcup.app/servers/CakeCraftNetworkHighschool-1.20.4/fabricmods/required/krypton-0.2.6.jar",
+            "MD5": "eaffbefc9a3dd361299c09eda8826c35"
+          }
+        },
+        {
+          "id": "generated.fabricmod:languagereload:1.6.1+1.20.4@jar",
+          "name": "Language Reload",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 69902,
+            "url": "https://lib.hotcup.app/servers/CakeCraftNetworkHighschool-1.20.4/fabricmods/optionalon/language-reload-1.6.1+1.20.4.jar",
+            "MD5": "147b071fab98c93a681ed77d419b6b8f"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "generated.fabricmod:lazydfu:0.1.3@jar",
+          "name": "LazyDFU",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 14531,
+            "url": "https://lib.hotcup.app/servers/CakeCraftNetworkHighschool-1.20.4/fabricmods/required/lazydfu-0.1.3.jar",
+            "MD5": "b36e83f424c5bb5100a3e8ffea0c6ce7"
+          }
+        },
+        {
+          "id": "me.jellysquid.mods:lithium:0.12.1@jar",
+          "name": "Lithium",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 716022,
+            "url": "https://lib.hotcup.app/servers/CakeCraftNetworkHighschool-1.20.4/fabricmods/required/lithium-fabric-mc1.20.4-0.12.1.jar",
+            "MD5": "83da6729d5402dc42eca740a96f97346"
+          }
+        },
+        {
+          "id": "ca.fxco:memoryleakfix:1.1.5@jar",
+          "name": "Memory Leak Fix",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 49334,
+            "url": "https://lib.hotcup.app/servers/CakeCraftNetworkHighschool-1.20.4/fabricmods/required/memoryleakfix-fabric-1.17+-1.1.5.jar",
+            "MD5": "a8461f89d267441752c95beb5448e940"
+          }
+        },
+        {
+          "id": "net.mehvahdjukaar:modelfix:1.14@jar",
+          "name": "Model Gap Fix",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 65430,
+            "url": "https://lib.hotcup.app/servers/CakeCraftNetworkHighschool-1.20.4/fabricmods/required/modelfix-1.14-fabric.jar",
+            "MD5": "37022aa425061707b0ed1ada2c071d97"
+          }
+        },
+        {
+          "id": "org.embeddedt:modernfix:5.17.0+mc1.20.4@jar",
+          "name": "ModernFix",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 458056,
+            "url": "https://lib.hotcup.app/servers/CakeCraftNetworkHighschool-1.20.4/fabricmods/required/modernfix-fabric-5.17.0+mc1.20.4.jar",
+            "MD5": "c988c6a3371040def77a32f3741c9723"
+          }
+        },
+        {
+          "id": "ca.fxco:moreculling:1.20.4-0.24.0@jar",
+          "name": "More Culling",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 272851,
+            "url": "https://lib.hotcup.app/servers/CakeCraftNetworkHighschool-1.20.4/fabricmods/required/moreculling-1.20.4-0.24.0.jar",
+            "MD5": "109804ad4b9f14a549f02bf26c98ac44"
+          }
+        },
+        {
+          "id": "dev.kosmx.playerAnim:playeranimator:1.0.2-rc1+1.20.4@jar",
+          "name": "Player Animator",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 178220,
+            "url": "https://lib.hotcup.app/servers/CakeCraftNetworkHighschool-1.20.4/fabricmods/optionalon/player-animation-lib-fabric-1.0.2-rc1+1.20.4.jar",
+            "MD5": "198d220ac5a6100a1fa2fcb372ac7bdd"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "net.mcvader:seriousplayeranimations:1.1.1@jar",
+          "name": "Serious Player Animations",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 159669,
+            "url": "https://lib.hotcup.app/servers/CakeCraftNetworkHighschool-1.20.4/fabricmods/optionalon/seriousplayeranimations-1.1.1.jar",
+            "MD5": "390fee2f31082e84ff4fa9936f9396af"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "me.flashyreese.mods.sodiumextra:sodium-extra:0.5.4+mc1.20.4-build.116@jar",
+          "name": "Sodium Extra",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 385665,
+            "url": "https://lib.hotcup.app/servers/CakeCraftNetworkHighschool-1.20.4/fabricmods/required/sodium-extra-0.5.4+mc1.20.4-build.116.jar",
+            "MD5": "a414a1b266c8e6bd22b37c72413000ff"
+          }
+        },
+        {
+          "id": "me.jellysquid.mods:sodium:0.5.8+mc1.20.4@jar",
+          "name": "Sodium",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 949085,
+            "url": "https://lib.hotcup.app/servers/CakeCraftNetworkHighschool-1.20.4/fabricmods/required/sodium-fabric-0.5.8+mc1.20.4.jar",
+            "MD5": "d7753a50ca37f50abb10465a9a425dac"
+          }
+        },
+        {
+          "id": "generated.fabricmod:starlight:1.1.3+fabric.f5dcd1a@jar",
+          "name": "Starlight",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 126410,
+            "url": "https://lib.hotcup.app/servers/CakeCraftNetworkHighschool-1.20.4/fabricmods/required/starlight-1.1.3+fabric.f5dcd1a.jar",
+            "MD5": "e4b2c577ba4501b8cc29c7217eeaf108"
+          }
+        },
+        {
+          "id": "dev.isxander.yacl3.platform:yet_another_config_lib_v3:3.6.1+1.20.4-fabric@jar",
+          "name": "YetAnotherConfigLib",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1169261,
+            "url": "https://lib.hotcup.app/servers/CakeCraftNetworkHighschool-1.20.4/fabricmods/required/YetAnotherConfigLib-3.6.1+1.20.4-fabric.jar",
+            "MD5": "6505fa7f844ef9c3ec66d435c259c1e7"
+          }
+        },
+        {
+          "id": "Recolourful Containers 1.1.1 (1.19.4-1.21.x).zip",
+          "name": "Recolourful Containers 1.1.1 (1.19.4-1.21.x).zip",
+          "type": "File",
+          "artifact": {
+            "size": 642382,
+            "url": "https://lib.hotcup.app/servers/CakeCraftNetworkHighschool-1.20.4/files/resourcepacks/Recolourful%20Containers%201.1.1%20(1.19.4-1.21.x).zip",
+            "MD5": "ee256fb6c59114f006b423400be174a5",
+            "path": "resourcepacks/Recolourful Containers 1.1.1 (1.19.4-1.21.x).zip"
+          }
+        },
+        {
+          "id": "§fAnimated §cR§aG§9B §fGUI JE [v1.21.0].zip",
+          "name": "§fAnimated §cR§aG§9B §fGUI JE [v1.21.0].zip",
+          "type": "File",
+          "artifact": {
+            "size": 3489055,
+            "url": "https://lib.hotcup.app/servers/CakeCraftNetworkHighschool-1.20.4/files/resourcepacks/%C2%A7fAnimated%20%C2%A7cR%C2%A7aG%C2%A79B%20%C2%A7fGUI%20JE%20[v1.21.0].zip",
+            "MD5": "cd7c2f9a859778ece809f7f5dde539f4",
+            "path": "resourcepacks/§fAnimated §cR§aG§9B §fGUI JE [v1.21.0].zip"
+          }
+        }
+      ]
+    }
+  ]
+}

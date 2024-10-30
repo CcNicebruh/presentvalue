@@ -1,0 +1,21 @@
+{
+  "$schema": "file:///C:/Users/ccnic/Desktop/real/schemas/ServerMetaSchema.schema.json",
+  "meta": {
+    "version": "1.0.0",
+    "name": "CakeCraftNetwork (Highschool)",
+    "description": "CakeCraftNetworkHighschool Running Minecraft 1.20.4 (Fabric v0.16.9)",
+    "icon": "How to set the server icon: https://github.com/dscalzi/Nebula#setting-the-server-icon",
+    "address": "cch.hotcup.app:25565",
+    "discord": {
+      "shortId": "CakeCraft Network | Highschool",
+      "largeImageText": "CakeCraft Network",
+      "largeImageKey": "cakecraft"
+    },
+    "mainServer": true,
+    "autoconnect": true
+  },
+  "fabric": {
+    "version": "0.16.9"
+  },
+  "untrackedFiles": []
+}
