@@ -11,7 +11,7 @@
             "id": "1.20.1-fabricmc",
             "name": "CakeCraft Network (Highschool)",
             "description": "เซิฟเวอร์โรลเพลย์โรงเรียนสนุกๆ มันๆ ที่ทุกคนคิดถึง!",
-            "icon": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/example_icon.png",
+            "icon": "http://lib.hotcup.app/modpack/CakeCraftNetwork/image/cakecraft.png",
             "version": "1.4.2",
             "address": "cch.hotcup.app:25565",
             "minecraftVersion": "1.20.1",
@@ -173,6 +173,56 @@
                         "size": 184740,
                         "url": "https://lib.hotcup.app/modpack/CakeCraftNetwork/mods/dynamic-fps-3.7.4+minecraft-1.20.2-fabric.jar",
                         "MD5": "E6361ED1BB6B1F0F5081617AA5270424"
+                    }
+                },
+                {
+                    "id": "foundationgames.enhancedblockentities:enhancedblockentities-0.10.1+1.20.4@jar",
+                    "name": "Enchanced Block Entities (Fabric)",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 330603,
+                        "url": "https://lib.hotcup.app/modpack/CakeCraftNetwork/mods/enhancedblockentities-0.10.1+1.20.4.jar",
+                        "MD5": "4258C4E9763224B9D6927441E5042E00"
+                    }
+                },
+                {
+                    "id": "dev.tr7zw:entityculling-fabric-1.7.0-mc1.20.4@jar",
+                    "name": "Entity Culling (Fabric)",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 66734,
+                        "url": "https://lib.hotcup.app/modpack/CakeCraftNetwork/mods/entityculling-fabric-1.7.0-mc1.20.4.jar",
+                        "MD5": "5461298680341A5AA73D29899731E0FB"
+                    }
+                },
+                {
+                    "id": "gg.essential:essential_1-3-4-3_fabric_1-20-4@jar",
+                    "name": "Essential (Fabric)",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 54050097,
+                        "url": "https://lib.hotcup.app/modpack/CakeCraftNetwork/mods/essential_1-3-4-3_fabric_1-20-4.jar",
+                        "MD5": "64CBB3D17F05B28E6B0E2BD123E4EF56"
+                    }
+                },
+                {
+                    "id": "net.fabricmc:fabric-api-0.97.2+1.20.4@jar",
+                    "name": "Fabric API (Fabric)",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 2187410,
+                        "url": "https://lib.hotcup.app/modpack/CakeCraftNetwork/mods/fabric-api-0.97.2+1.20.4.jar",
+                        "MD5": "2733C159C2F7628983A96B442CA3F823"
+                    }
+                },
+                {
+                    "id": "malte0811.ferritecore:ferritecore-6.0.3-fabric@jar",
+                    "name": "FerriteCore (Fabric)",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 125100,
+                        "url": "https://lib.hotcup.app/modpack/CakeCraftNetwork/mods/ferritecore-6.0.3-fabric.jar",
+                        "MD5": "2733C159C2F7628983A96B442CA3F823"
                     }
                 }
             ]
