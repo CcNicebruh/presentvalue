@@ -1191,7 +1191,7 @@
                             "artifact": {
                                 "size": 123598,
                                 "MD5": "6f8bccf756f170d4185bb24c8c2d2020",
-                                "url": "https://cakecraftnet.lib.hotcup.app/repo/lib/org/ow2/asm/asm/9.6/asm-9.6.jar"
+                                "url": "https://lib.hotcup.app/modpack/CakeCraftNetwork/lib/org/ow2/asm/asm/9.1/asm-9.1.jar"
                             }
                         },
                         {
@@ -1201,7 +1201,7 @@
                             "artifact": {
                                 "size": 34041,
                                 "MD5": "31c84ef7cc893fb278952ae2d6a2674f",
-                                "url": "https://cakecraftnet.lib.hotcup.app/repo/lib/org/ow2/asm/asm-analysis/9.6/asm-analysis-9.6.jar"
+                                "url": "https://lib.hotcup.app/modpack/CakeCraftNetwork/lib/org/ow2/asm/asm-analysis/9.7.1/asm-analysis-9.7.1.jar"
                             }
                         },
                         {
@@ -1211,7 +1211,7 @@
                             "artifact": {
                                 "size": 72194,
                                 "MD5": "9e317c75534bd1da8c00a67c618ab288",
-                                "url": "https://cakecraftnet.lib.hotcup.app/repo/lib/org/ow2/asm/asm-commons/9.6/asm-commons-9.6.jar"
+                                "url": "https://lib.hotcup.app/modpack/CakeCraftNetwork/lib/org/ow2/asm/asm-commons/9.1/asm-commons-9.1.jar"
                             }
                         },
                         {
@@ -1221,7 +1221,7 @@
                             "artifact": {
                                 "size": 51935,
                                 "MD5": "6062608f1a98afe1e853d01fa1221a9e",
-                                "url": "https://cakecraftnet.lib.hotcup.app/repo/lib/org/ow2/asm/asm-tree/9.6/asm-tree-9.6.jar"
+                                "url": "https://lib.hotcup.app/modpack/CakeCraftNetwork/lib/org/ow2/asm/asm-tree/9.1/asm-tree-9.1.jar"
                             }
                         },
                         {
@@ -1231,7 +1231,7 @@
                             "artifact": {
                                 "size": 91131,
                                 "MD5": "bd3bc1c176a787373e9a031073c9574b",
-                                "url": "https://cakecraftnet.lib.hotcup.app/repo/lib/org/ow2/asm/asm-util/9.6/asm-util-9.6.jar"
+                                "url": "https://lib.hotcup.app/modpack/CakeCraftNetwork/lib/org/ow2/asm/asm-util/9.7.1/asm-util-9.7.1.jar"
                             }
                         },
                         {
@@ -1241,7 +1241,7 @@
                             "artifact": {
                                 "size": 1494751,
                                 "MD5": "4808c070bf19415a5cb4a0cb5e569b12",
-                                "url": "https://cakecraftnet.lib.hotcup.app/repo/lib/net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar"
+                                "url": "https://lib.hotcup.app/modpack/CakeCraftNetwork/lib/net/fabricmc/sponge-mixin/0.15.3+mixin.0.8.7/sponge-mixin-0.15.3+mixin.0.8.7.jar"
                             }
                         },
                         {
@@ -1251,7 +1251,7 @@
                             "artifact": {
                                 "size": 573365,
                                 "MD5": "3f4768ac751cac3418266d1d7aa15f55",
-                                "url": "https://cakecraftnet.lib.hotcup.app/repo/lib/net/fabricmc/intermediary/1.20.1/intermediary-1.20.1.jar"
+                                "url": "https://lib.hotcup.app/modpack/CakeCraftNetwork/lib/net/fabricmc/intermediary/1.20.4/intermediary-1.20.4.jar"
                             }
                         }
                     ]
