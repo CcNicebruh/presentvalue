@@ -222,7 +222,177 @@
                     "artifact": {
                         "size": 125100,
                         "url": "https://lib.hotcup.app/modpack/CakeCraftNetwork/mods/ferritecore-6.0.3-fabric.jar",
-                        "MD5": "2733C159C2F7628983A96B442CA3F823"
+                        "MD5": "A684CFCDBC32EDDAF78782FB4E5762F4"
+                    }
+                },
+                {
+                    "id": "net.raphimc:ImmediatelyFast-Fabric-1.3.0+1.20.4@jar",
+                    "name": "ImmediatelyFast (Fabric)",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 250123,
+                        "url": "https://lib.hotcup.app/modpack/CakeCraftNetwork/mods/ImmediatelyFast-Fabric-1.3.0+1.20.4.jar",
+                        "MD5": "07F1C4F1D90FDB3BC415AE69E1764277"
+                    }
+                },
+                {
+                    "id": "link.infra:indium-1.0.31+mc1.20.4@jar",
+                    "name": "Indium (Fabric)",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 105350,
+                        "url": "https://lib.hotcup.app/modpack/CakeCraftNetwork/mods/indium-1.0.31+mc1.20.4.jar",
+                        "MD5": "86D20AFC613763546F51452EF893BE82"
+                    }
+                },
+                {
+                    "id": "net.irisshaders:iris-1.7.2+mc1.20.4@jar",
+                    "name": "Iris (Fabric)",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 2703697,
+                        "url": "https://lib.hotcup.app/modpack/CakeCraftNetwork/mods/iris-1.7.2+mc1.20.4.jar",
+                        "MD5": "FA3647D1891A719B268C636236D989C2"
+                    }
+                },
+                {
+                    "id": "me.steinborn:krypton-0.2.6@jar",
+                    "name": "Krypton (Fabric)",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 167163,
+                        "url": "https://lib.hotcup.app/modpack/CakeCraftNetwork/mods/krypton-0.2.6.jar",
+                        "MD5": "EAFFBEFC9A3DD361299C09EDA8826C35"
+                    }
+                },
+                {
+                    "id": "jerozgen.languagereload:language-reload-1.6.1+1.20.4@jar",
+                    "name": "Language Reload (Fabric)",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 69902,
+                        "url": "https://lib.hotcup.app/modpack/CakeCraftNetwork/mods/language-reload-1.6.1+1.20.4.jar",
+                        "MD5": "147B071FAB98C93A681ED77D419B6B8F"
+                    }
+                },
+                {
+                    "id": "me.steinborn:lazydfu-0.1.3@jar",
+                    "name": "LazyDFU (Fabric)",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 14531,
+                        "url": "https://lib.hotcup.app/modpack/CakeCraftNetwork/mods/lazydfu-0.1.3.jar",
+                        "MD5": "B36E83F424C5BB5100A3E8FFEA0C6CE7"
+                    }
+                },
+                {
+                    "id": "me.jellysquid:lithium-fabric-mc1.20.4-0.12.1@jar",
+                    "name": "Lithium (Fabric)",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 716022,
+                        "url": "https://lib.hotcup.app/modpack/CakeCraftNetwork/mods/lithium-fabric-mc1.20.4-0.12.1.jar",
+                        "MD5": "83DA6729D5402DC42ECA740A96F97346"
+                    }
+                },
+                {
+                    "id": "ca.fxco:memoryleakfix-fabric-1.17+-1.1.5@jar",
+                    "name": "Memory Leak Fix (Fabric)",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 49334,
+                        "url": "https://lib.hotcup.app/modpack/CakeCraftNetwork/mods/memoryleakfix-fabric-1.17+-1.1.5.jar",
+                        "MD5": "A8461F89D267441752C95BEB5448E940"
+                    }
+                },
+                {
+                    "id": "net.mehvahdjukaar:modelfix-1.14-fabric@jar",
+                    "name": "Model Fix (Fabric)",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 65430,
+                        "url": "https://lib.hotcup.app/modpack/CakeCraftNetwork/mods/modelfix-1.14-fabric.jar",
+                        "MD5": "37022AA425061707B0ED1ADA2C071D97"
+                    }
+                },
+                {
+                    "id": "org.embeddedt:modernfix-fabric-5.17.0+mc1.20.4@jar",
+                    "name": "Modern Fix (Fabric)",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 458056,
+                        "url": "https://lib.hotcup.app/modpack/CakeCraftNetwork/mods/modernfix-fabric-5.17.0+mc1.20.4.jar",
+                        "MD5": "C988C6A3371040DEF77A32F3741C9723"
+                    }
+                },
+                {
+                    "id": "ca.fxco:moreculling-1.20.4-0.24.0@jar",
+                    "name": "More Culling (Fabric)",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 272851,
+                        "url": "https://lib.hotcup.app/modpack/CakeCraftNetwork/mods/moreculling-1.20.4-0.24.0.jar",
+                        "MD5": "109804AD4B9F14A549F02BF26C98AC44"
+                    }
+                },
+                {
+                    "id": "dev.kosmx:player-animation-lib-fabric-1.0.2-rc1+1.20.4@jar",
+                    "name": "Player Animation Lib (Fabric)",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 178220,
+                        "url": "https://lib.hotcup.app/modpack/CakeCraftNetwork/mods/player-animation-lib-fabric-1.0.2-rc1+1.20.4.jar",
+                        "MD5": "198D220AC5A6100A1FA2FCB372AC7BDD"
+                    }
+                },
+                {
+                    "id": "net.mcvader:seriousplayeranimations-1.1.1@jar",
+                    "name": "Serious Player Animations (Fabric)",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 159669,
+                        "url": "https://lib.hotcup.app/modpack/CakeCraftNetwork/mods/seriousplayeranimations-1.1.1.jar",
+                        "MD5": "390FEE2F31082E84FF4FA9936F9396AF"
+                    }
+                },
+                {
+                    "id": "net.caffeinemc:sodium-extra-0.5.4+mc1.20.4-build.116@jar",
+                    "name": "Sodium Extra (Fabric)",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 385665,
+                        "url": "https://lib.hotcup.app/modpack/CakeCraftNetwork/mods/sodium-extra-0.5.4+mc1.20.4-build.116.jar",
+                        "MD5": "A414A1B266C8E6BD22B37C72413000FF"
+                    }
+                },
+                {
+                    "id": "net.caffeinemc:sodium-fabric-0.5.8+mc1.20.4@jar",
+                    "name": "Sodium Extra (Fabric)",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 949085,
+                        "url": "https://lib.hotcup.app/modpack/CakeCraftNetwork/mods/sodium-fabric-0.5.8+mc1.20.4.jar",
+                        "MD5": "D7753A50CA37F50ABB10465A9A425DAC"
+                    }
+                },
+                {
+                    "id": "ca.spottedleaf:starlight-1.1.3+fabric.f5dcd1a@jar",
+                    "name": "Starlight (Fabric)",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 126410,
+                        "url": "https://lib.hotcup.app/modpack/CakeCraftNetwork/mods/starlight-1.1.3+fabric.f5dcd1a.jar",
+                        "MD5": "E4B2C577BA4501B8CC29C7217EEAF108"
+                    }
+                },
+                {
+                    "id": "dev.isxander:yetanotherconfiglib-3.6.1+1.20.4-fabric@jar",
+                    "name": "Yet Another Config Lib (Fabric)",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 1169261,
+                        "url": "https://lib.hotcup.app/modpack/CakeCraftNetwork/mods/YetAnotherConfigLib-3.6.1+1.20.4-fabric.jar",
+                        "MD5": "6505FA7F844EF9C3EC66D435C259C1E7"
                     }
                 }
             ]
