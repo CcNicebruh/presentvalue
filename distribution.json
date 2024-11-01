@@ -11,7 +11,7 @@
       "id": "CakeCraftNetworkHighschool-1.20.4",
       "name": "CakeCraftNetwork (Highschool)",
       "description": "CakeCraftNetworkHighschool Running Minecraft 1.20.4 (Fabric v0.16.9)",
-      "icon": "https://github.com/CcNicebruh/presentvalue/blob/main/modpack/CakeCraftNetwork/image/cakecraft.png?raw=true",
+      "icon": null,
       "version": "1.0.0",
       "address": "cch.hotcup.app:25565",
       "minecraftVersion": "1.20.4",
