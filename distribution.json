@@ -9,7 +9,7 @@
   "servers": [
     {
       "id": "CakeCraftNetworkHighschool-1.20.4",
-      "name": "CakeCraft Network (Highschool)",
+      "name": "CakeCraftNetwork (Highschool)",
       "description": "A funnest minecraft server for everyone to play Minecraft together!",
       "icon": "https://github.com/CcNicebruh/presentvalue/blob/main/modpack/CakeCraftNetwork/image/cakecraft.png?raw=true",
       "version": "1.0.0",
@@ -423,6 +423,19 @@
             "size": 1169261,
             "url": "https://lib.hotcup.app/servers/CakeCraftNetworkHighschool-1.20.4/fabricmods/required/YetAnotherConfigLib-3.6.1+1.20.4-fabric.jar",
             "MD5": "6505fa7f844ef9c3ec66d435c259c1e7"
+          }
+        },
+        {
+          "id": "dev.isxander:zoomify:2.14.2+1.20.4@jar",
+          "name": "Zoomify",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 807874,
+            "url": "https://lib.hotcup.app/servers/CakeCraftNetworkHighschool-1.20.4/fabricmods/optionalon/Zoomify-2.14.2+1.20.4.jar",
+            "MD5": "cf99ab393d527fda2e146206ac447a5d"
+          },
+          "required": {
+            "value": false
           }
         },
         {

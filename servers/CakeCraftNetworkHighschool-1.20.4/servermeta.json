@@ -3,8 +3,8 @@
   "meta": {
     "version": "1.0.0",
     "name": "CakeCraftNetwork (Highschool)",
-    "description": "CakeCraftNetworkHighschool Running Minecraft 1.20.4 (Fabric v0.16.9)",
-    "icon": "How to set the server icon: https://github.com/dscalzi/Nebula#setting-the-server-icon",
+    "description": "A funnest minecraft server for everyone to play Minecraft together!",
+    "icon": "https://github.com/CcNicebruh/presentvalue/blob/main/modpack/CakeCraftNetwork/image/cakecraft.png?raw=true",
     "address": "cch.hotcup.app:25565",
     "discord": {
       "shortId": "CakeCraft Network | Highschool",
