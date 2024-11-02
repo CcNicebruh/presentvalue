@@ -459,6 +459,50 @@
             "MD5": "cd7c2f9a859778ece809f7f5dde539f4",
             "path": "resourcepacks/§fAnimated §cR§aG§9B §fGUI JE [v1.21.0].zip"
           }
+        },
+        {
+          "id": "projectLUMA - v1.32.zip",
+          "name": "projectLUMA - v1.32.zip",
+          "type": "File",
+          "artifact": {
+            "size": 19692966,
+            "url": "https://lib.hotcup.app/servers/CakeCraftNetworkHighschool-1.20.4/files/shaderpacks/projectLUMA%20-%20v1.32.zip",
+            "MD5": "3edf0df2dd1e95ca5b0a84f2627f1422",
+            "path": "shaderpacks/projectLUMA - v1.32.zip"
+          }
+        },
+        {
+          "id": "Sildur's Vibrant Shaders v1.52 Extreme-VL.zip",
+          "name": "Sildur's Vibrant Shaders v1.52 Extreme-VL.zip",
+          "type": "File",
+          "artifact": {
+            "size": 142504,
+            "url": "https://lib.hotcup.app/servers/CakeCraftNetworkHighschool-1.20.4/files/shaderpacks/Sildur's%20Vibrant%20Shaders%20v1.52%20Extreme-VL.zip",
+            "MD5": "82a198c41b07f33a7ebb1b9d27ada3f0",
+            "path": "shaderpacks/Sildur's Vibrant Shaders v1.52 Extreme-VL.zip"
+          }
+        },
+        {
+          "id": "VanillAA.zip",
+          "name": "VanillAA.zip",
+          "type": "File",
+          "artifact": {
+            "size": 23014,
+            "url": "https://lib.hotcup.app/servers/CakeCraftNetworkHighschool-1.20.4/files/shaderpacks/VanillAA.zip",
+            "MD5": "c86b307aa28105cf116af5a46de40584",
+            "path": "shaderpacks/VanillAA.zip"
+          }
+        },
+        {
+          "id": "VanillaPlus_v3.2.zip",
+          "name": "VanillaPlus_v3.2.zip",
+          "type": "File",
+          "artifact": {
+            "size": 441994,
+            "url": "https://lib.hotcup.app/servers/CakeCraftNetworkHighschool-1.20.4/files/shaderpacks/VanillaPlus_v3.2.zip",
+            "MD5": "46251da9800f5d74353de3e422d76bc7",
+            "path": "shaderpacks/VanillaPlus_v3.2.zip"
+          }
         }
       ]
     }
