@@ -9,7 +9,7 @@
   "servers": [
     {
       "id": "CakeCraftNetworkHighschool-1.20.4",
-      "name": "CakeCraftNetwork (Highschool)",
+      "name": "CakeCraft Network (Highschool)",
       "description": "A funnest minecraft server for everyone to play Minecraft together!",
       "icon": "https://github.com/CcNicebruh/presentvalue/blob/main/modpack/CakeCraftNetwork/image/cakecraft.png?raw=true",
       "version": "1.0.0",
@@ -126,6 +126,19 @@
           }
         },
         {
+          "id": "ezzenix.chatanimation:chatanimation:1.0.5@jar",
+          "name": "ChatAnimation",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 16345637,
+            "url": "https://lib.hotcup.app/servers/CakeCraftNetworkHighschool-1.20.4/fabricmods/optionalon/chatanimation-1.0.5.jar",
+            "MD5": "352e79d9617ed4adda0d3ba12936fef0"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
           "id": "nl.enjarai:cicada:0.8.4-beta.1+1.20.2-1.20.4@jar",
           "name": "CICADA",
           "type": "FabricMod",
@@ -220,6 +233,16 @@
             "size": 2187410,
             "url": "https://lib.hotcup.app/servers/CakeCraftNetworkHighschool-1.20.4/fabricmods/required/fabric-api-0.97.2+1.20.4.jar",
             "MD5": "2733c159c2f7628983a96b442ca3f823"
+          }
+        },
+        {
+          "id": "generated.fabricmod:fabric-language-kotlin:1.12.3+kotlin.2.0.21@jar",
+          "name": "Fabric Language Kotlin",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 7137406,
+            "url": "https://lib.hotcup.app/servers/CakeCraftNetworkHighschool-1.20.4/fabricmods/required/fabric-language-kotlin-1.12.3+kotlin.2.0.21.jar",
+            "MD5": "dba35c1bf0daa7845df6aa8e3df1a424"
           }
         },
         {
@@ -336,6 +359,16 @@
           }
         },
         {
+          "id": "com.terraformersmc:modmenu:9.2.0@jar",
+          "name": "Mod Menu",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 963019,
+            "url": "https://lib.hotcup.app/servers/CakeCraftNetworkHighschool-1.20.4/fabricmods/required/modmenu-9.2.0.jar",
+            "MD5": "f8008ee81dd401a441bd20f41e43fca2"
+          }
+        },
+        {
           "id": "ca.fxco:moreculling:1.20.4-0.24.0@jar",
           "name": "More Culling",
           "type": "FabricMod",
@@ -343,6 +376,32 @@
             "size": 272851,
             "url": "https://lib.hotcup.app/servers/CakeCraftNetworkHighschool-1.20.4/fabricmods/required/moreculling-1.20.4-0.24.0.jar",
             "MD5": "109804ad4b9f14a549f02bf26c98ac44"
+          }
+        },
+        {
+          "id": "opekope2.optigui:optigui:2.1.7@jar",
+          "name": "OptiGUI",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 780572,
+            "url": "https://lib.hotcup.app/servers/CakeCraftNetworkHighschool-1.20.4/fabricmods/optionalon/optigui-2.1.7.jar",
+            "MD5": "2744ac9b3e4908c3cfcf4362d1437e0f"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "su.plo.voice:plasmovoice:2.0.10@jar",
+          "name": "Plasmo Voice",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 11376020,
+            "url": "https://lib.hotcup.app/servers/CakeCraftNetworkHighschool-1.20.4/fabricmods/optionalon/plasmovoice-fabric-1.20.4-2.0.10.jar",
+            "MD5": "2052f2ed1f4212ad7c93c8eec6c9e697"
+          },
+          "required": {
+            "value": false
           }
         },
         {
@@ -386,6 +445,32 @@
           }
         },
         {
+          "id": "dev.tr7zw.skinlayers:skinlayers3d:1.6.7@jar",
+          "name": "3d-Skin-Layers",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 473244,
+            "url": "https://lib.hotcup.app/servers/CakeCraftNetworkHighschool-1.20.4/fabricmods/optionalon/skinlayers3d-fabric-1.6.7-mc1.20.4.jar",
+            "MD5": "483aad55f683bf2115dfee2bb4699470"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "ezzenix.smoothgui:smoothgui:0.1.0@jar",
+          "name": "SmoothGui",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 20051296,
+            "url": "https://lib.hotcup.app/servers/CakeCraftNetworkHighschool-1.20.4/fabricmods/optionalon/smoothgui-0.1.0.jar",
+            "MD5": "e943d303116d97075f69a0cdf5bcffdc"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
           "id": "me.flashyreese.mods.sodiumextra:sodium-extra:0.5.4+mc1.20.4-build.116@jar",
           "name": "Sodium Extra",
           "type": "FabricMod",
@@ -403,6 +488,19 @@
             "size": 949085,
             "url": "https://lib.hotcup.app/servers/CakeCraftNetworkHighschool-1.20.4/fabricmods/required/sodium-fabric-0.5.8+mc1.20.4.jar",
             "MD5": "d7753a50ca37f50abb10465a9a425dac"
+          }
+        },
+        {
+          "id": "com.sonicether.soundphysics:sound_physics_remastered:1.20.4-1.4.5@jar",
+          "name": "Sound Physics Remastered",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 195142,
+            "url": "https://lib.hotcup.app/servers/CakeCraftNetworkHighschool-1.20.4/fabricmods/optionalon/sound-physics-remastered-fabric-1.20.4-1.4.5.jar",
+            "MD5": "37038ab44ed2110b7bd73b67b590381e"
+          },
+          "required": {
+            "value": false
           }
         },
         {

@@ -2,7 +2,7 @@
   "$schema": "file:///C:/Users/ccnic/Desktop/real/schemas/ServerMetaSchema.schema.json",
   "meta": {
     "version": "1.0.0",
-    "name": "CakeCraftNetwork (Highschool)",
+    "name": "CakeCraft Network (Highschool)",
     "description": "A funnest minecraft server for everyone to play Minecraft together!",
     "icon": "https://github.com/CcNicebruh/presentvalue/blob/main/modpack/CakeCraftNetwork/image/cakecraft.png?raw=true",
     "address": "cch.hotcup.app:25565",
