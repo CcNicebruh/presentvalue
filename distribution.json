@@ -204,19 +204,6 @@
           "type": "FabricMod",
           "artifact": {
             "size": 54050097,
-            "url": "https://lib.hotcup.app/servers/CakeCraftNetworkHighschool-1.20.4/fabricmods/optionalon/essential_1-3-4-3_fabric_1-20-4.jar",
-            "MD5": "64cbb3d17f05b28e6b0e2bd123e4ef56"
-          },
-          "required": {
-            "value": false
-          }
-        },
-        {
-          "id": "generated.fabricmod:essential-container:1.0.0@jar",
-          "name": "Essential-container",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 54050097,
             "url": "https://lib.hotcup.app/servers/CakeCraftNetworkHighschool-1.20.4/fabricmods/optionaloff/essential_1-3-4-3_fabric_1-20-4.jar",
             "MD5": "64cbb3d17f05b28e6b0e2bd123e4ef56"
           },
