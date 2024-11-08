@@ -1,0 +1,11 @@
+{
+  "$schema": "file:///C:/Users/ccnic/Desktop/real/schemas/DistroMetaSchema.schema.json",
+  "meta": {
+    "rss": "https://hotcup.app/index.php?forums/-/index.rss",
+    "discord": {
+      "clientId": "1218554556036808855",
+      "smallImageText": "Minecraft",
+      "smallImageKey": "minecraft"
+    }
+  }
+}

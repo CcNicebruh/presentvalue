@@ -1,0 +1,21 @@
+{
+  "$schema": "file:///C:/Users/ccnic/Desktop/real/schemas/ServerMetaSchema.schema.json",
+  "meta": {
+    "version": "1.0.0",
+    "name": "CakeCraft Network (Highschool)",
+    "description": "A funnest minecraft server for everyone to play Minecraft together!",
+    "icon": "https://github.com/CcNicebruh/presentvalue/blob/main/modpack/CakeCraftNetwork/image/cakecraft.png?raw=true",
+    "address": "cch.hotcup.app:25565",
+    "discord": {
+      "shortId": "CakeCraft Network | Highschool",
+      "largeImageText": "CakeCraft Network",
+      "largeImageKey": "cakecraft"
+    },
+    "mainServer": true,
+    "autoconnect": true
+  },
+  "fabric": {
+    "version": "0.16.9"
+  },
+  "untrackedFiles": []
+}

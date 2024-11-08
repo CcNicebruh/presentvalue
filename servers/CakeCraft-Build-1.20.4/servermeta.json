@@ -1,0 +1,21 @@
+{
+  "$schema": "file:///C:/Users/ccnic/Desktop/real/schemas/ServerMetaSchema.schema.json",
+  "meta": {
+    "version": "1.0.0",
+    "name": "CakeCraft Build Contest Server",
+    "description": "for builders only",
+    "icon": "https://github.com/CcNicebruh/presentvalue/blob/main/modpack/CakeCraftNetwork/image/cakecraft.png?raw=true",
+    "address": "cch.hotcup.app:25777",
+    "discord": {
+      "shortId": "CakeCraft Builds",
+      "largeImageText": "CakeCraft on FabricMC 1.20.4",
+      "largeImageKey": "cakecraft"
+    },
+    "mainServer": false,
+    "autoconnect": false
+  },
+  "fabric": {
+    "version": "0.16.9"
+  },
+  "untrackedFiles": []
+}
