@@ -1,0 +1,21 @@
+{
+  "$schema": "file:///C:/Users/ccnic/Desktop/real/schemas/ServerMetaSchema.schema.json",
+  "meta": {
+    "version": "1.0.0",
+    "name": "CakeCraft Seasons 2",
+    "description": "A continue version for cakecraft networks!",
+    "icon": "https://github.com/CcNicebruh/presentvalue/blob/main/modpack/CakeCraftNetwork/image/cakecraft.png?raw=true",
+    "address": "hypixel.net:25565",
+    "discord": {
+      "shortId": "CakeCraft Seasons 2 | Fabric Optimized",
+      "largeImageText": "CakeCraft Network",
+      "largeImageKey": "cakecraft"
+    },
+    "mainServer": false,
+    "autoconnect": false
+  },
+  "fabric": {
+    "version": "0.16.9"
+  },
+  "untrackedFiles": []
+}

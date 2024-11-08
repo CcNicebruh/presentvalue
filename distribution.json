@@ -1788,6 +1788,1351 @@
           }
         }
       ]
+    },
+    {
+      "id": "CakeCraftSeasons2-1.20.4",
+      "name": "CakeCraft Seasons 2",
+      "description": "A continue version for cakecraft networks!",
+      "icon": "https://github.com/CcNicebruh/presentvalue/blob/main/modpack/CakeCraftNetwork/image/cakecraft.png?raw=true",
+      "version": "1.0.0",
+      "address": "hypixel.net:25565",
+      "minecraftVersion": "1.20.4",
+      "discord": {
+        "shortId": "CakeCraft Seasons 2 | Fabric Optimized",
+        "largeImageText": "CakeCraft Network",
+        "largeImageKey": "cakecraft"
+      },
+      "mainServer": false,
+      "autoconnect": false,
+      "modules": [
+        {
+          "id": "net.fabricmc:fabric-loader:0.16.9",
+          "name": "Fabric (fabric-loader)",
+          "type": "Fabric",
+          "artifact": {
+            "size": 1387357,
+            "MD5": "27a6ef87676ce6316c777d81c1cd2962",
+            "url": "https://lib.hotcup.app/repo/lib/net/fabricmc/fabric-loader/0.16.9/fabric-loader-0.16.9.jar"
+          },
+          "subModules": [
+            {
+              "id": "1.20.4-fabric-0.16.9",
+              "name": "Fabric (version.json)",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 2857,
+                "MD5": "179afd7ad97521da1d154d554f04bfc2",
+                "url": "https://lib.hotcup.app/repo/versions/1.20.4-fabric-0.16.9/1.20.4-fabric-0.16.9.json"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm:9.7.1",
+              "name": "Fabric (asm)",
+              "type": "Library",
+              "artifact": {
+                "size": 126093,
+                "MD5": "e2cdd32d198ad31427d298eee9d39d8d",
+                "url": "https://lib.hotcup.app/repo/lib/org/ow2/asm/asm/9.7.1/asm-9.7.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-analysis:9.7.1",
+              "name": "Fabric (asm-analysis)",
+              "type": "Library",
+              "artifact": {
+                "size": 35126,
+                "MD5": "4cd9e7178dfb85371bba3077e40cd514",
+                "url": "https://lib.hotcup.app/repo/lib/org/ow2/asm/asm-analysis/9.7.1/asm-analysis-9.7.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-commons:9.7.1",
+              "name": "Fabric (asm-commons)",
+              "type": "Library",
+              "artifact": {
+                "size": 73459,
+                "MD5": "8344aea3c8b7d707e9d35a62710e77c9",
+                "url": "https://lib.hotcup.app/repo/lib/org/ow2/asm/asm-commons/9.7.1/asm-commons-9.7.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-tree:9.7.1",
+              "name": "Fabric (asm-tree)",
+              "type": "Library",
+              "artifact": {
+                "size": 51939,
+                "MD5": "e85029f613b6469989cc7cf53fe06b74",
+                "url": "https://lib.hotcup.app/repo/lib/org/ow2/asm/asm-tree/9.7.1/asm-tree-9.7.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-util:9.7.1",
+              "name": "Fabric (asm-util)",
+              "type": "Library",
+              "artifact": {
+                "size": 94519,
+                "MD5": "36d373a9cd6cad9b35db9f984c6b4bbb",
+                "url": "https://lib.hotcup.app/repo/lib/org/ow2/asm/asm-util/9.7.1/asm-util-9.7.1.jar"
+              }
+            },
+            {
+              "id": "net.fabricmc:sponge-mixin:0.15.4+mixin.0.8.7",
+              "name": "Fabric (sponge-mixin)",
+              "type": "Library",
+              "artifact": {
+                "size": 1494834,
+                "MD5": "991ca8be2c408fe19eb64014d8a18243",
+                "url": "https://lib.hotcup.app/repo/lib/net/fabricmc/sponge-mixin/0.15.4+mixin.0.8.7/sponge-mixin-0.15.4+mixin.0.8.7.jar"
+              }
+            },
+            {
+              "id": "net.fabricmc:intermediary:1.20.4",
+              "name": "Fabric (intermediary)",
+              "type": "Library",
+              "artifact": {
+                "size": 608319,
+                "MD5": "3a1cade1634c518db6147c9771686ea9",
+                "url": "https://lib.hotcup.app/repo/lib/net/fabricmc/intermediary/1.20.4/intermediary-1.20.4.jar"
+              }
+            }
+          ]
+        },
+        {
+          "id": "net.adorabuild.structures:adorabuild_structures:2.6.0@jar",
+          "name": "AdoraBuild: Structures",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 589221,
+            "url": "https://lib.hotcup.app/servers/CakeCraftSeasons2-1.20.4/fabricmods/required/adorabuild-structures-2.6.0-fabric-1.20.4.jar",
+            "MD5": "fb9780acf0b94ea167e7d94c4bb5779d"
+          }
+        },
+        {
+          "id": "juuxel.adorn:adorn:5.3.0+1.20.4@jar",
+          "name": "Adorn",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 4212654,
+            "url": "https://lib.hotcup.app/servers/CakeCraftSeasons2-1.20.4/fabricmods/required/Adorn-5.3.0+1.20.4-fabric.jar",
+            "MD5": "d6ce82fa49ed2e0c730805985155291e"
+          }
+        },
+        {
+          "id": "com.cyao.animatedLogo:animated-logo:1.0@jar",
+          "name": "Animated Mojang Logo",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 3055412,
+            "url": "https://lib.hotcup.app/servers/CakeCraftSeasons2-1.20.4/fabricmods/required/animated-logo-1.2.jar",
+            "MD5": "08b7cc8ed9cb2af398ca2b3b2f77a692"
+          }
+        },
+        {
+          "id": "io.github.foundationgames:animatica:0.6.1+1.20.4@jar",
+          "name": "Animatica",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 71415,
+            "url": "https://lib.hotcup.app/servers/CakeCraftSeasons2-1.20.4/fabricmods/required/animatica-0.6.1+1.20.4.jar",
+            "MD5": "62f56949e2f934073f5576fc4758ff4f"
+          }
+        },
+        {
+          "id": "squeek.appleskin:appleskin:2.5.1+mc1.20.3@jar",
+          "name": "AppleSkin",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1077002,
+            "url": "https://lib.hotcup.app/servers/CakeCraftSeasons2-1.20.4/fabricmods/required/appleskin-fabric-mc1.20.3-2.5.1.jar",
+            "MD5": "60e559dd89ef9104af41449158634162"
+          }
+        },
+        {
+          "id": "dev.architectury.utils:architectury:11.1.17@jar",
+          "name": "Architectury",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 587429,
+            "url": "https://lib.hotcup.app/servers/CakeCraftSeasons2-1.20.4/fabricmods/required/architectury-11.1.17-fabric.jar",
+            "MD5": "666d154657c8c2241377720d679dc6de"
+          }
+        },
+        {
+          "id": "earth.terrarium.athena.impl:athena:3.3.2@jar",
+          "name": "Athena",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 78373,
+            "url": "https://lib.hotcup.app/servers/CakeCraftSeasons2-1.20.4/fabricmods/required/athena-fabric-1.20.4-3.3.2.jar",
+            "MD5": "04a98dff3f79a71ddb343e81a8695ed6"
+          }
+        },
+        {
+          "id": "org.betterx:bclib:3.30.1@jar",
+          "name": "BCLib",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2374751,
+            "url": "https://lib.hotcup.app/servers/CakeCraftSeasons2-1.20.4/fabricmods/required/bclib-3.30.1.jar",
+            "MD5": "ce02d52c39c62c04bea2095701e64581"
+          }
+        },
+        {
+          "id": "generated.fabricmod:better:end-4.30.1@jar",
+          "name": "Better",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 92514973,
+            "url": "https://lib.hotcup.app/servers/CakeCraftSeasons2-1.20.4/fabricmods/required/better-end-4.30.1.jar",
+            "MD5": "21a2194da284902b64012c5f8d68824b"
+          }
+        },
+        {
+          "id": "simon_mc.bettermcdonaldsmod:bettermcdonaldsmod:1.20.4-3.1.0@jar",
+          "name": "Better McDonald's Mod",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 342378,
+            "url": "https://lib.hotcup.app/servers/CakeCraftSeasons2-1.20.4/fabricmods/required/better-mcdonalds-mod-fabric-1.20.4-3.1.0.jar",
+            "MD5": "eaff5eaee25d8c1ad0943aa8cb6f1f54"
+          }
+        },
+        {
+          "id": "org.betterx:betternether:9.30.0@jar",
+          "name": "Better Nether",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 22948916,
+            "url": "https://lib.hotcup.app/servers/CakeCraftSeasons2-1.20.4/fabricmods/required/better-nether-9.30.0.jar",
+            "MD5": "384df317e027223c11b65a073960adab"
+          }
+        },
+        {
+          "id": "net.Pandarix:betterarcheology:1.2.1-1.20.4@jar",
+          "name": "Better Archeology",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 987437,
+            "url": "https://lib.hotcup.app/servers/CakeCraftSeasons2-1.20.4/fabricmods/required/betterarcheology-1.2.1-1.20.4.jar",
+            "MD5": "a35e625772da2a97d8f129371a53af0a"
+          }
+        },
+        {
+          "id": "net.bettercombat:bettercombat:1.9.0+1.20.4@jar",
+          "name": "Better Combat",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 782938,
+            "url": "https://lib.hotcup.app/servers/CakeCraftSeasons2-1.20.4/fabricmods/required/bettercombat-fabric-1.9.0+1.20.4.jar",
+            "MD5": "ac87faa425bd60c8097815bf07453a28"
+          }
+        },
+        {
+          "id": "dev.wuffs:bcc:5.1.2@jar",
+          "name": "BetterCompatibilityChecker",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 25610,
+            "url": "https://lib.hotcup.app/servers/CakeCraftSeasons2-1.20.4/fabricmods/required/BetterCompatibilityChecker-fabric-5.1.2+mc1.20.4.jar",
+            "MD5": "6e8982d437c82bc06b2958a3f32de767"
+          }
+        },
+        {
+          "id": "me.cominixo:betterf3:9.0.2@jar",
+          "name": "BetterF3",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1776259,
+            "url": "https://lib.hotcup.app/servers/CakeCraftSeasons2-1.20.4/fabricmods/required/BetterF3-9.0.2-Fabric-1.20.4.jar",
+            "MD5": "24fa26b55c158717323b0cb1abe58232"
+          }
+        },
+        {
+          "id": "net.bandit:betterhp_fabric:3.1.2-1.20.1-fabric@jar",
+          "name": "BetterHP fabric",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 15828,
+            "url": "https://lib.hotcup.app/servers/CakeCraftSeasons2-1.20.4/fabricmods/required/betterHP_fabric-3.1.2-1.20.1-fabric.jar",
+            "MD5": "d028bab65c8c440b1d492df9bee66429"
+          }
+        },
+        {
+          "id": "mitzingdash.better_main_menu:better_main_menu:0.4@jar",
+          "name": "Better Main Menu",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 4716087,
+            "url": "https://lib.hotcup.app/servers/CakeCraftSeasons2-1.20.4/fabricmods/required/BetterMainMenu-1.20.4-0.4.jar",
+            "MD5": "2d1f527e8924ce71f35a841552090e5a"
+          }
+        },
+        {
+          "id": "com.tterrag:blur:3.2.0@jar",
+          "name": "Blur (Fabric)",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 155092,
+            "url": "https://lib.hotcup.app/servers/CakeCraftSeasons2-1.20.4/fabricmods/required/blur-3.2.0.jar",
+            "MD5": "72dfc9ed13eab2bf1c83ec1e4aa68858"
+          }
+        },
+        {
+          "id": "jewtvet.boathud_extended:boathud_extended:1.0.0@jar",
+          "name": "BoatHUD (Extended)",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 110303,
+            "url": "https://lib.hotcup.app/servers/CakeCraftSeasons2-1.20.4/fabricmods/required/boathud_extended-1.0.0.jar",
+            "MD5": "8a6deb047702de0afbb4c24d5a0d5e7a"
+          }
+        },
+        {
+          "id": "com.ishland:c2me:0.2.0+alpha.11.72@jar",
+          "name": "Concurrent Chunk Management Engine",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1289505,
+            "url": "https://lib.hotcup.app/servers/CakeCraftSeasons2-1.20.4/fabricmods/required/c2me-fabric-mc1.20.4-0.2.0+alpha.11.72.jar",
+            "MD5": "22dc5cc9aa098e3273539a750b08da3c"
+          }
+        },
+        {
+          "id": "tschipp.carryon:carryon:2.1.3@jar",
+          "name": "Carry On",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 348426,
+            "url": "https://lib.hotcup.app/servers/CakeCraftSeasons2-1.20.4/fabricmods/required/carryon-fabric-1.20.4-2.1.3.13.jar",
+            "MD5": "fc03f740b935fd725c2e41780a38e565"
+          }
+        },
+        {
+          "id": "dzwdz.chat_heads:chat_heads:0.13.4@jar",
+          "name": "Chat Heads",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 72981,
+            "url": "https://lib.hotcup.app/servers/CakeCraftSeasons2-1.20.4/fabricmods/optionalon/chat_heads-0.13.4-fabric-1.20.4.jar",
+            "MD5": "0fbcaa77f62851d06c7dab0d2592441d"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "ezzenix.chatanimation:chatanimation:1.0.5@jar",
+          "name": "ChatAnimation",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 16345637,
+            "url": "https://lib.hotcup.app/servers/CakeCraftSeasons2-1.20.4/fabricmods/optionalon/chatanimation-1.0.5.jar",
+            "MD5": "352e79d9617ed4adda0d3ba12936fef0"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "org.popcraft:chunky:1.3.146@jar",
+          "name": "Chunky",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 344004,
+            "url": "https://lib.hotcup.app/servers/CakeCraftSeasons2-1.20.4/fabricmods/required/Chunky-1.3.146.jar",
+            "MD5": "b1e31424db96ae83246efd0390598e01"
+          }
+        },
+        {
+          "id": "org.popcraft:chunkyborder:1.1.63@jar",
+          "name": "ChunkyBorder",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 157732,
+            "url": "https://lib.hotcup.app/servers/CakeCraftSeasons2-1.20.4/fabricmods/required/ChunkyBorder-1.1.63.jar",
+            "MD5": "f1c12c41b4e1fe4d44c805d0d6059803"
+          }
+        },
+        {
+          "id": "nl.enjarai:cicada:0.8.4-beta.1+1.20.2-1.20.4@jar",
+          "name": "CICADA",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 79427,
+            "url": "https://lib.hotcup.app/servers/CakeCraftSeasons2-1.20.4/fabricmods/required/cicada-lib-0.9.0+1.20.2-1.20.4.jar",
+            "MD5": "47f9ee02e74aad3c72548c95ceae6190"
+          }
+        },
+        {
+          "id": "me.shedaniel.autoconfig.example:cloth-config:13.0.138@jar",
+          "name": "Cloth Config v13",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1154870,
+            "url": "https://lib.hotcup.app/servers/CakeCraftSeasons2-1.20.4/fabricmods/required/cloth-config-13.0.138-fabric.jar",
+            "MD5": "fe340d88340db91313eb5d50febcbb81"
+          }
+        },
+        {
+          "id": "com.supermartijn642:connectedglass:1.1.12@jar",
+          "name": "Connected Glass",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 843200,
+            "url": "https://lib.hotcup.app/servers/CakeCraftSeasons2-1.20.4/fabricmods/required/connectedglass-1.1.12-fabric-mc1.20.4.jar",
+            "MD5": "c3a4aa8177c89e5d3fce74fada426d11"
+          }
+        },
+        {
+          "id": "me.pepperbell:continuity:3.0.0-beta.5+1.20.2@jar",
+          "name": "Continuity",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1009401,
+            "url": "https://lib.hotcup.app/servers/CakeCraftSeasons2-1.20.4/fabricmods/required/continuity-3.0.0-beta.5+1.20.2.jar",
+            "MD5": "2b62a19992d9e8cbbe6f2830074cfee3"
+          }
+        },
+        {
+          "id": "com.corosus.coroutil.loader:coroutil:1.20.4-1.3.7@jar",
+          "name": "CoroUtil",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2662568,
+            "url": "https://lib.hotcup.app/servers/CakeCraftSeasons2-1.20.4/fabricmods/required/coroutil-fabric-1.20.4-1.3.7.jar",
+            "MD5": "a71b1848d6d45eed4f4c79b6230740d4"
+          }
+        },
+        {
+          "id": "chylex.customwindowtitle:customwindowtitle:1.2.0@jar",
+          "name": "Custom Window Title",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 15478,
+            "url": "https://lib.hotcup.app/servers/CakeCraftSeasons2-1.20.4/fabricmods/required/CustomWindowTitle-Fabric-1.20+v1.2.0.jar.disabled",
+            "MD5": "3cd2fe9e8780ad86bae1a51f1dd2410b"
+          }
+        },
+        {
+          "id": "generated.fabricmod:mr_daycounter:1@jar",
+          "name": "Day Counter (Original)",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 10195,
+            "url": "https://lib.hotcup.app/servers/CakeCraftSeasons2-1.20.4/fabricmods/required/daycounter-1.jar",
+            "MD5": "e6a0436f5a1ba5933984b9ad606d7a90"
+          }
+        },
+        {
+          "id": "generated.fabricmod:debugify:1.20.4+1.1@jar",
+          "name": "Debugify",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 270096,
+            "url": "https://lib.hotcup.app/servers/CakeCraftSeasons2-1.20.4/fabricmods/required/Debugify-1.20.4+1.1.jar",
+            "MD5": "584c3fa19ba42fa9e54a4f8a6d59fc5a"
+          }
+        },
+        {
+          "id": "nl.enjarai.doabarrelroll:do_a_barrel_roll:3.6.0+1.20.4@jar",
+          "name": "Do a Barrel Roll",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 503060,
+            "url": "https://lib.hotcup.app/servers/CakeCraftSeasons2-1.20.4/fabricmods/optionalon/do_a_barrel_roll-fabric-3.6.0+1.20.4.jar",
+            "MD5": "276168167aae335cc94e578455b26dff"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "net.lostluma.dynamic_fps.impl.textile.compat:dynamic_fps:3.7.4@jar",
+          "name": "Dynamic FPS",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 184740,
+            "url": "https://lib.hotcup.app/servers/CakeCraftSeasons2-1.20.4/fabricmods/required/dynamic-fps-3.7.4+minecraft-1.20.2-fabric.jar",
+            "MD5": "e6361ed1bb6b1f0f5081617aa5270424"
+          }
+        },
+        {
+          "id": "band.kessokuteatime:edgelesschatscreen:1.1.5@jar",
+          "name": "Edgeless Chat Screen",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 18529,
+            "url": "https://lib.hotcup.app/servers/CakeCraftSeasons2-1.20.4/fabricmods/required/edgelesschatscreen-1.1.5-fabric.1.20.jar",
+            "MD5": "202af3b8e3051b9fb5ad5afaa2ecb793"
+          }
+        },
+        {
+          "id": "dev.emi.emi.platform:emi:1.1.17+1.20.4+fabric@jar",
+          "name": "EMI",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1001799,
+            "url": "https://lib.hotcup.app/servers/CakeCraftSeasons2-1.20.4/fabricmods/required/emi-1.1.17+1.20.4+fabric.jar",
+            "MD5": "958c95aa45c19e33d6b3fd885297215d"
+          }
+        },
+        {
+          "id": "io.github.kosmx.emotes:emotecraft:2.4.0-a.f140890e@jar",
+          "name": "Emotecraft",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 852679,
+            "url": "https://lib.hotcup.app/servers/CakeCraftSeasons2-1.20.4/fabricmods/required/emotecraft-for-MC1.20.4-2.4.0-a.f140890e-fabric.jar",
+            "MD5": "cf1423e023f630feaaee94c042bf097f"
+          }
+        },
+        {
+          "id": "foundationgames.enhancedblockentities:enhancedblockentities:0.10.1+1.20.4@jar",
+          "name": "Enhanced Block Entities",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 330603,
+            "url": "https://lib.hotcup.app/servers/CakeCraftSeasons2-1.20.4/fabricmods/required/enhancedblockentities-0.10.1+1.20.4.jar",
+            "MD5": "4258c4e9763224b9d6927441e5042e00"
+          }
+        },
+        {
+          "id": "dev.tr7zw:entityculling:1.7.0@jar",
+          "name": "EntityCulling",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 66734,
+            "url": "https://lib.hotcup.app/servers/CakeCraftSeasons2-1.20.4/fabricmods/required/entityculling-fabric-1.7.0-mc1.20.4.jar",
+            "MD5": "5461298680341a5aa73d29899731e0fb"
+          }
+        },
+        {
+          "id": "net.superkat:explosiveenhancement:1.2.2-1.20.x@jar",
+          "name": "Explosive Enhancement",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 102550,
+            "url": "https://lib.hotcup.app/servers/CakeCraftSeasons2-1.20.4/fabricmods/required/explosive-enhancement-1.2.2-1.20.x.jar",
+            "MD5": "5b5ccdd62571812ed2352c1259797454"
+          }
+        },
+        {
+          "id": "generated.fabricmod:fabric-api:0.97.2+1.20.4@jar",
+          "name": "Fabric API",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2187410,
+            "url": "https://lib.hotcup.app/servers/CakeCraftSeasons2-1.20.4/fabricmods/required/fabric-api-0.97.2+1.20.4.jar",
+            "MD5": "2733c159c2f7628983a96b442ca3f823"
+          }
+        },
+        {
+          "id": "generated.fabricmod:fabric-language-kotlin:1.12.3+kotlin.2.0.21@jar",
+          "name": "Fabric Language Kotlin",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 7137406,
+            "url": "https://lib.hotcup.app/servers/CakeCraftSeasons2-1.20.4/fabricmods/required/fabric-language-kotlin-1.12.3+kotlin.2.0.21.jar",
+            "MD5": "dba35c1bf0daa7845df6aa8e3df1a424"
+          }
+        },
+        {
+          "id": "generated.fabricmod:ferritecore:6.0.3@jar",
+          "name": "FerriteCore",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 125100,
+            "url": "https://lib.hotcup.app/servers/CakeCraftSeasons2-1.20.4/fabricmods/required/ferritecore-6.0.3-fabric.jar",
+            "MD5": "a684cfcdbc32eddaf78782fb4e5762f4"
+          }
+        },
+        {
+          "id": "fuzs.forgeconfigapiport.fabric.impl:forgeconfigapiport:20.4.3@jar",
+          "name": "Forge Config API Port",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 444627,
+            "url": "https://lib.hotcup.app/servers/CakeCraftSeasons2-1.20.4/fabricmods/required/ForgeConfigAPIPort-v20.4.3-1.20.4-Fabric.jar",
+            "MD5": "61c622d98e5938c377a45ad513b6de13"
+          }
+        },
+        {
+          "id": "com.supermartijn642:fusion:1.1.1@jar",
+          "name": "Fusion",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 207980,
+            "url": "https://lib.hotcup.app/servers/CakeCraftSeasons2-1.20.4/fabricmods/required/fusion-1.1.1-fabric-mc1.20.4.jar",
+            "MD5": "a635c77d25e3e433e2114a281596dcab"
+          }
+        },
+        {
+          "id": "earth.terrarium:handcrafted:3.2.1@jar",
+          "name": "Handcrafted",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 7104588,
+            "url": "https://lib.hotcup.app/servers/CakeCraftSeasons2-1.20.4/fabricmods/required/handcrafted-fabric-1.20.4-3.2.1.jar",
+            "MD5": "9608b05c4b62491b37252344f1bced0b"
+          }
+        },
+        {
+          "id": "ru.vidtu:ias:9.0.0@jar",
+          "name": "In-Game Account Switcher",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 304789,
+            "url": "https://lib.hotcup.app/servers/CakeCraftSeasons2-1.20.4/fabricmods/required/IAS-Fabric-1.20.4-9.0.0.jar",
+            "MD5": "5043a42742a6be0b21bd6c2c69160ec2"
+          }
+        },
+        {
+          "id": "generated.fabricmod:immediatelyfast:1.3.0+1.20.4@jar",
+          "name": "ImmediatelyFast",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 250123,
+            "url": "https://lib.hotcup.app/servers/CakeCraftSeasons2-1.20.4/fabricmods/required/ImmediatelyFast-Fabric-1.3.0+1.20.4.jar",
+            "MD5": "07f1c4f1d90fdb3bc415ae69e1764277"
+          }
+        },
+        {
+          "id": "link.infra:indium:1.0.31+mc1.20.4@jar",
+          "name": "Indium",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 105350,
+            "url": "https://lib.hotcup.app/servers/CakeCraftSeasons2-1.20.4/fabricmods/required/indium-1.0.31+mc1.20.4.jar",
+            "MD5": "86d20afc613763546f51452ef893be82"
+          }
+        },
+        {
+          "id": "generated.fabricmod:iris:1.7.2+mc1.20.4@jar",
+          "name": "Iris",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2703697,
+            "url": "https://lib.hotcup.app/servers/CakeCraftSeasons2-1.20.4/fabricmods/required/iris-1.7.2+mc1.20.4.jar",
+            "MD5": "fa3647d1891a719b268c636236d989c2"
+          }
+        },
+        {
+          "id": "dev.tr7zw:itemswapper:0.7.2@jar",
+          "name": "ItemSwapper",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 887575,
+            "url": "https://lib.hotcup.app/servers/CakeCraftSeasons2-1.20.4/fabricmods/required/itemswapper-fabric-0.7.2-mc1.20.4.jar",
+            "MD5": "1de1d4732865088a23c834d42ea97243"
+          }
+        },
+        {
+          "id": "fabric.com.lx862.jcm.entrypoint:jsblock:2.0.0-beta-4+1.20.4@jar",
+          "name": "Joban Client Mod",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 9118558,
+            "url": "https://lib.hotcup.app/servers/CakeCraftSeasons2-1.20.4/fabricmods/required/JCM-2.0.0-beta-4+1.20.4.jar",
+            "MD5": "829142c7e9695a56fc0e8fe22ba28337"
+          }
+        },
+        {
+          "id": "me.steinborn.krypton.mod.shared:krypton:0.2.6@jar",
+          "name": "Krypton",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 167163,
+            "url": "https://lib.hotcup.app/servers/CakeCraftSeasons2-1.20.4/fabricmods/required/krypton-0.2.6.jar",
+            "MD5": "eaffbefc9a3dd361299c09eda8826c35"
+          }
+        },
+        {
+          "id": "generated.fabricmod:languagereload:1.6.1+1.20.4@jar",
+          "name": "Language Reload",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 69902,
+            "url": "https://lib.hotcup.app/servers/CakeCraftSeasons2-1.20.4/fabricmods/required/language-reload-1.6.1+1.20.4.jar",
+            "MD5": "147b071fab98c93a681ed77d419b6b8f"
+          }
+        },
+        {
+          "id": "generated.fabricmod:lazydfu:0.1.3@jar",
+          "name": "LazyDFU",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 14531,
+            "url": "https://lib.hotcup.app/servers/CakeCraftSeasons2-1.20.4/fabricmods/required/lazydfu-0.1.3.jar",
+            "MD5": "b36e83f424c5bb5100a3e8ffea0c6ce7"
+          }
+        },
+        {
+          "id": "me.jellysquid.mods:lithium:0.12.1@jar",
+          "name": "Lithium",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 716022,
+            "url": "https://lib.hotcup.app/servers/CakeCraftSeasons2-1.20.4/fabricmods/required/lithium-fabric-mc1.20.4-0.12.1.jar",
+            "MD5": "83da6729d5402dc42eca740a96f97346"
+          }
+        },
+        {
+          "id": "net.lyivx:ls_furniture:1.0.3-SNAPSHOT@jar",
+          "name": "LYIVX's Furniture Mod",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 3942010,
+            "url": "https://lib.hotcup.app/servers/CakeCraftSeasons2-1.20.4/fabricmods/required/ls_furniture-1.0.3-SNAPSHOT-Fabric-1.20.4.jar",
+            "MD5": "6ba10db1d5b39bf6e0ac798b3965db6f"
+          }
+        },
+        {
+          "id": "net.kikoz:mcwbridges:3.0.0@jar",
+          "name": "Macaw's Bridges",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 657555,
+            "url": "https://lib.hotcup.app/servers/CakeCraftSeasons2-1.20.4/fabricmods/required/mcw-bridges-3.0.0-mc1.20.4fabric.jar",
+            "MD5": "8cf858a8d07c53cf7632fe3eb47db2ef"
+          }
+        },
+        {
+          "id": "net.kikoz:mcwdoors:1.1.1@jar",
+          "name": "Macaw's Doors",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1183274,
+            "url": "https://lib.hotcup.app/servers/CakeCraftSeasons2-1.20.4/fabricmods/required/mcw-doors-1.1.1fabric-mc1.20.4.jar",
+            "MD5": "d06237e47da883dc99cba47a59f82f97"
+          }
+        },
+        {
+          "id": "net.kikoz:mcwfences:1.1.2@jar",
+          "name": "Macaw's Fences and Walls",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 474399,
+            "url": "https://lib.hotcup.app/servers/CakeCraftSeasons2-1.20.4/fabricmods/required/mcw-fences-1.1.2-mc1.20.4fabric.jar",
+            "MD5": "9355851078d3a7312f9c005ec5e822de"
+          }
+        },
+        {
+          "id": "net.kikoz:mcwfurnitures:3.3.0@jar",
+          "name": "Macaw's Furniture",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1810749,
+            "url": "https://lib.hotcup.app/servers/CakeCraftSeasons2-1.20.4/fabricmods/required/mcw-furniture-3.3.0-mc1.20.4fabric.jar",
+            "MD5": "151e2e6eaa90aac63a2d43bf4d52350f"
+          }
+        },
+        {
+          "id": "net.kikoz:mcwholidays:1.1.0@jar",
+          "name": "Macaw's Holidays",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 979159,
+            "url": "https://lib.hotcup.app/servers/CakeCraftSeasons2-1.20.4/fabricmods/required/mcw-holidays-1.1.0-mc1.20.4fabric.jar",
+            "MD5": "b8369c6500dbea1c04120a1f82853f6b"
+          }
+        },
+        {
+          "id": "net.kikoz:mcwlights:1.1.1@jar",
+          "name": "Macaw's Lights and Lamps",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 487757,
+            "url": "https://lib.hotcup.app/servers/CakeCraftSeasons2-1.20.4/fabricmods/required/mcw-lights-1.1.1-mc1.20.4fabric.jar",
+            "MD5": "60b1aed21145bb1962119035a7728828"
+          }
+        },
+        {
+          "id": "net.kikoz:mcwpaintings:1.0.5@jar",
+          "name": "Macaw's Paintings",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 56481,
+            "url": "https://lib.hotcup.app/servers/CakeCraftSeasons2-1.20.4/fabricmods/required/mcw-paintings-1.0.5-1.20.4fabric.jar",
+            "MD5": "0e50125a175bead1c667e8baf41c9fc3"
+          }
+        },
+        {
+          "id": "com.mcwpaths.kikoz:mcwpaths:1.0.5@jar",
+          "name": "Macaw's Paths and Pavings",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 574272,
+            "url": "https://lib.hotcup.app/servers/CakeCraftSeasons2-1.20.4/fabricmods/required/mcw-paths-1.0.5-1.20.4fabric.jar",
+            "MD5": "e4f0daf87d67b3d5fee262b64d387650"
+          }
+        },
+        {
+          "id": "net.kikoz:mcwroofs:2.3.1@jar",
+          "name": "Macaw's Roofs",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1766820,
+            "url": "https://lib.hotcup.app/servers/CakeCraftSeasons2-1.20.4/fabricmods/required/mcw-roofs-2.3.1-mc1.20.4fabric.jar",
+            "MD5": "435193875e06204af6d2a9709364f224"
+          }
+        },
+        {
+          "id": "com.mcwstairs.kikoz:mcwstairs:1.0.0@jar",
+          "name": "Macaw's Stairs and Balconies",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 520340,
+            "url": "https://lib.hotcup.app/servers/CakeCraftSeasons2-1.20.4/fabricmods/required/mcw-stairs-1.0.0-1.20.4fabric.jar",
+            "MD5": "13df0388d29aa232746d028dfd29448b"
+          }
+        },
+        {
+          "id": "net.kikoz:mcwtrpdoors:1.1.3@jar",
+          "name": "Macaw's Trapdoors",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 647921,
+            "url": "https://lib.hotcup.app/servers/CakeCraftSeasons2-1.20.4/fabricmods/required/mcw-trapdoors-1.1.3-mc1.20.4fabric.jar",
+            "MD5": "ce57cbdda48821ded50792dbbbf96ca2"
+          }
+        },
+        {
+          "id": "net.kikoz:mcwwindows:2.3.1@jar",
+          "name": "Macaw's Windows",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1224713,
+            "url": "https://lib.hotcup.app/servers/CakeCraftSeasons2-1.20.4/fabricmods/required/mcw-windows-2.3.1-mc1.20.4fabric.jar",
+            "MD5": "d7486815b519fe9acac9e00842be0f40"
+          }
+        },
+        {
+          "id": "ca.fxco:memoryleakfix:1.1.5@jar",
+          "name": "Memory Leak Fix",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 49334,
+            "url": "https://lib.hotcup.app/servers/CakeCraftSeasons2-1.20.4/fabricmods/required/memoryleakfix-fabric-1.17+-1.1.5.jar",
+            "MD5": "a8461f89d267441752c95beb5448e940"
+          }
+        },
+        {
+          "id": "net.mehvahdjukaar:modelfix:1.14@jar",
+          "name": "Model Gap Fix",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 65430,
+            "url": "https://lib.hotcup.app/servers/CakeCraftSeasons2-1.20.4/fabricmods/required/modelfix-1.14-fabric.jar",
+            "MD5": "37022aa425061707b0ed1ada2c071d97"
+          }
+        },
+        {
+          "id": "org.embeddedt:modernfix:5.17.0+mc1.20.4@jar",
+          "name": "ModernFix",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 458056,
+            "url": "https://lib.hotcup.app/servers/CakeCraftSeasons2-1.20.4/fabricmods/required/modernfix-fabric-5.17.0+mc1.20.4.jar",
+            "MD5": "c988c6a3371040def77a32f3741c9723"
+          }
+        },
+        {
+          "id": "icyllis.modernui.mc:modernui:3.11.0.2@jar",
+          "name": "Modern UI",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 25367204,
+            "url": "https://lib.hotcup.app/servers/CakeCraftSeasons2-1.20.4/fabricmods/required/ModernUI-Fabric-1.20.4-3.11.0.2-universal.jar.disabled",
+            "MD5": "d3ffc079e15cc28a9b16ff5c16d28150"
+          }
+        },
+        {
+          "id": "com.terraformersmc:modmenu:9.2.0@jar",
+          "name": "Mod Menu",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 963019,
+            "url": "https://lib.hotcup.app/servers/CakeCraftSeasons2-1.20.4/fabricmods/required/modmenu-9.2.0.jar",
+            "MD5": "f8008ee81dd401a441bd20f41e43fca2"
+          }
+        },
+        {
+          "id": "ca.fxco:moreculling:1.20.4-0.24.0@jar",
+          "name": "More Culling",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 272851,
+            "url": "https://lib.hotcup.app/servers/CakeCraftSeasons2-1.20.4/fabricmods/required/moreculling-1.20.4-0.24.0.jar",
+            "MD5": "109804ad4b9f14a549f02bf26c98ac44"
+          }
+        },
+        {
+          "id": "com.mineblock11.mru.entry:mru:0.4.4+1.20.4@jar",
+          "name": "Mineblock's Repeated Utilities",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1183717,
+            "url": "https://lib.hotcup.app/servers/CakeCraftSeasons2-1.20.4/fabricmods/required/mru-0.4.4+1.20.4.jar",
+            "MD5": "c636d9c67619b1392b20afb965f4b0f6"
+          }
+        },
+        {
+          "id": "org.mtr.init:mtr:4.0.0-beta-11@jar",
+          "name": "Minecraft Transit Railway",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 78822135,
+            "url": "https://lib.hotcup.app/servers/CakeCraftSeasons2-1.20.4/fabricmods/required/MTR-fabric-4.0.0-beta-11+1.20.4.jar",
+            "MD5": "01216a088b832f22adf923355f58f22f"
+          }
+        },
+        {
+          "id": "com.finndog:mvs:4.1.2-1.20-fabric@jar",
+          "name": "Moog's Voyager Structures",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1330631,
+            "url": "https://lib.hotcup.app/servers/CakeCraftSeasons2-1.20.4/fabricmods/required/mvs-4.1.2-1.20-fabric.jar",
+            "MD5": "f4c1d457685582b18583347f79631226"
+          }
+        },
+        {
+          "id": "com.aizistral:nochatreports:1.20.4-v2.6.1@jar",
+          "name": "No Chat Reports",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 317495,
+            "url": "https://lib.hotcup.app/servers/CakeCraftSeasons2-1.20.4/fabricmods/required/NoChatReports-FABRIC-1.20.4-v2.6.1.jar",
+            "MD5": "96fef22842632ff1e758754ef74f8389"
+          }
+        },
+        {
+          "id": "dev.o7moon:openboatutils:0.4.1_1.20.1-1.20.4@jar",
+          "name": "OpenBoatUtils",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 399108,
+            "url": "https://lib.hotcup.app/servers/CakeCraftSeasons2-1.20.4/fabricmods/required/OpenBoatUtils-0.4.1_1.20.1-1.20.4.jar",
+            "MD5": "eb9282ec9d52fc985e1ac9f3968edd23"
+          }
+        },
+        {
+          "id": "opekope2.optigui:optigui:2.1.7@jar",
+          "name": "OptiGUI",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 780572,
+            "url": "https://lib.hotcup.app/servers/CakeCraftSeasons2-1.20.4/fabricmods/required/optigui-2.1.7.jar",
+            "MD5": "2744ac9b3e4908c3cfcf4362d1437e0f"
+          }
+        },
+        {
+          "id": "pm.n2:parachute:0.7.6@jar",
+          "name": "Parachute",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 847547,
+            "url": "https://lib.hotcup.app/servers/CakeCraftSeasons2-1.20.4/fabricmods/required/parachute-mc1.20.4-0.7.6.jar",
+            "MD5": "f1298cbe446cae5f70315304ad23b2f0"
+          }
+        },
+        {
+          "id": "com.yungnickyoung.minecraft:paxi:1.20.4-Fabric-4.4.1@jar",
+          "name": "Paxi",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 223118,
+            "url": "https://lib.hotcup.app/servers/CakeCraftSeasons2-1.20.4/fabricmods/required/Paxi-1.20.4-Fabric-4.4.1.jar.disabled",
+            "MD5": "02fbd48c0daea659650d84064eab35ad"
+          }
+        },
+        {
+          "id": "su.plo.voice:plasmovoice:2.0.10@jar",
+          "name": "Plasmo Voice",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 11376020,
+            "url": "https://lib.hotcup.app/servers/CakeCraftSeasons2-1.20.4/fabricmods/required/plasmovoice-fabric-1.20.4-2.0.10.jar",
+            "MD5": "2052f2ed1f4212ad7c93c8eec6c9e697"
+          }
+        },
+        {
+          "id": "dev.kosmx.playerAnim:playeranimator:1.0.2-rc1+1.20.4@jar",
+          "name": "Player Animator",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 178220,
+            "url": "https://lib.hotcup.app/servers/CakeCraftSeasons2-1.20.4/fabricmods/required/player-animation-lib-fabric-1.0.2-rc1+1.20.4.jar",
+            "MD5": "198d220ac5a6100a1fa2fcb372ac7bdd"
+          }
+        },
+        {
+          "id": "net.winniethedampoeh:quickchat:0.1.1-beta+1.20.1@jar",
+          "name": "QuickChat",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 34000,
+            "url": "https://lib.hotcup.app/servers/CakeCraftSeasons2-1.20.4/fabricmods/optionalon/quickchat-0.1.1-beta+1.20.1.jar",
+            "MD5": "b6c6cd457b1586aa6e13e930307ce528"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "net.msymbios:reignitedhud:1.1.0@jar",
+          "name": "Reignited HUD",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1482770,
+            "url": "https://lib.hotcup.app/servers/CakeCraftSeasons2-1.20.4/fabricmods/required/reignitedhud-fabric-1.20.4-1.1.0.jar",
+            "MD5": "ea1db1939f0c64e608a62eb5793dc6ab"
+          }
+        },
+        {
+          "id": "com.teamresourceful:resourcefullib:2.4.10@jar",
+          "name": "Resourceful Lib",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 440662,
+            "url": "https://lib.hotcup.app/servers/CakeCraftSeasons2-1.20.4/fabricmods/required/resourcefullib-fabric-1.20.4-2.4.10.jar",
+            "MD5": "2546853251192bdfc5a74335a90d7d3d"
+          }
+        },
+        {
+          "id": "generated.fabricmod:resourcify:1.5.1@jar",
+          "name": "Resourcify",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2478546,
+            "url": "https://lib.hotcup.app/servers/CakeCraftSeasons2-1.20.4/fabricmods/required/Resourcify%20(1.20.2-1.20.4-fabric)-1.5.1.jar",
+            "MD5": "bb8f8f329bedbae723c8789ecbe86cf6"
+          }
+        },
+        {
+          "id": "me.jfenn.scoreboardoverhaul:scoreboard-overhaul:1.2.2-mc1.20.4@jar",
+          "name": "Scoreboard Overhaul",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 7244958,
+            "url": "https://lib.hotcup.app/servers/CakeCraftSeasons2-1.20.4/fabricmods/optionalon/scoreboardoverhaul-1.2.2-mc1.20.4.jar",
+            "MD5": "81380b9361ce6ecff7f00db453494fda"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "net.mcvader:seriousplayeranimations:1.1.1@jar",
+          "name": "Serious Player Animations",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 159669,
+            "url": "https://lib.hotcup.app/servers/CakeCraftSeasons2-1.20.4/fabricmods/optionalon/seriousplayeranimations-1.1.1.jar",
+            "MD5": "390fee2f31082e84ff4fa9936f9396af"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "ezzenix.smoothgui:smoothgui:0.1.0@jar",
+          "name": "SmoothGui",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 20051296,
+            "url": "https://lib.hotcup.app/servers/CakeCraftSeasons2-1.20.4/fabricmods/optionalon/smoothgui-0.1.0.jar",
+            "MD5": "e943d303116d97075f69a0cdf5bcffdc"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "me.flashyreese.mods.sodiumextra:sodium-extra:0.5.4+mc1.20.4-build.116@jar",
+          "name": "Sodium Extra",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 385665,
+            "url": "https://lib.hotcup.app/servers/CakeCraftSeasons2-1.20.4/fabricmods/required/sodium-extra-0.5.4+mc1.20.4-build.116.jar",
+            "MD5": "a414a1b266c8e6bd22b37c72413000ff"
+          }
+        },
+        {
+          "id": "me.jellysquid.mods:sodium:0.5.8+mc1.20.4@jar",
+          "name": "Sodium",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 949085,
+            "url": "https://lib.hotcup.app/servers/CakeCraftSeasons2-1.20.4/fabricmods/required/sodium-fabric-0.5.8+mc1.20.4.jar",
+            "MD5": "d7753a50ca37f50abb10465a9a425dac"
+          }
+        },
+        {
+          "id": "com.sonicether.soundphysics:sound_physics_remastered:1.20.4-1.4.5@jar",
+          "name": "Sound Physics Remastered",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 195142,
+            "url": "https://lib.hotcup.app/servers/CakeCraftSeasons2-1.20.4/fabricmods/optionalon/sound-physics-remastered-fabric-1.20.4-1.4.5.jar",
+            "MD5": "37038ab44ed2110b7bd73b67b590381e"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "dev.imb11:sounds:1.1.5+1.20.4@jar",
+          "name": "Sounds",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 9135894,
+            "url": "https://lib.hotcup.app/servers/CakeCraftSeasons2-1.20.4/fabricmods/optionalon/Sounds-1.1.5+1.20.4.jar",
+            "MD5": "a365a35ef223fa705a93ffe2275c8068"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "generated.fabricmod:starlight:1.1.3+fabric.f5dcd1a@jar",
+          "name": "Starlight",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 126410,
+            "url": "https://lib.hotcup.app/servers/CakeCraftSeasons2-1.20.4/fabricmods/required/starlight-1.1.3+fabric.f5dcd1a.jar",
+            "MD5": "e4b2c577ba4501b8cc29c7217eeaf108"
+          }
+        },
+        {
+          "id": "io.github.a5b84.statuseffectbars:status-effect-bars:1.0.4@jar",
+          "name": "Status Effect Bars",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 43010,
+            "url": "https://lib.hotcup.app/servers/CakeCraftSeasons2-1.20.4/fabricmods/required/status-effect-bars-1.0.4.jar",
+            "MD5": "c9bc80d8ffa655439bad43e62c310860"
+          }
+        },
+        {
+          "id": "com.supermartijn642.configlib:supermartijn642configlib:1.1.8+a@jar",
+          "name": "SuperMartijn642's Config Lib",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 205413,
+            "url": "https://lib.hotcup.app/servers/CakeCraftSeasons2-1.20.4/fabricmods/required/supermartijn642configlib-1.1.8a-fabric-mc1.20.2.jar",
+            "MD5": "d28265e83aa74ee97209f277cfb8863d"
+          }
+        },
+        {
+          "id": "com.supermartijn642.core:supermartijn642corelib:1.1.17+b@jar",
+          "name": "SuperMartijn642's Core Lib",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 567222,
+            "url": "https://lib.hotcup.app/servers/CakeCraftSeasons2-1.20.4/fabricmods/required/supermartijn642corelib-1.1.17b-fabric-mc1.20.4.jar",
+            "MD5": "f20b79ac322aafdc6d4dbb7780c4e5c4"
+          }
+        },
+        {
+          "id": "com.ishland:vmp:0.2.0+beta.7.139@jar",
+          "name": "Very Many Players",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 459326,
+            "url": "https://lib.hotcup.app/servers/CakeCraftSeasons2-1.20.4/fabricmods/required/vmp-fabric-mc1.20.4-0.2.0+beta.7.139-all.jar",
+            "MD5": "2397be4d22d67d0b6a4911f1b856fc1d"
+          }
+        },
+        {
+          "id": "com.corosus.watut.loader:watut:1.20.4-1.1.3@jar",
+          "name": "What Are They Up To",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 762269,
+            "url": "https://lib.hotcup.app/servers/CakeCraftSeasons2-1.20.4/fabricmods/optionalon/watut-fabric-1.20.4-1.1.3.jar",
+            "MD5": "5d83205be4a903fea63b12401329db78"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "dev.tr7zw:waveycapes:1.4.10@jar",
+          "name": "WaveyCapes",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 361244,
+            "url": "https://lib.hotcup.app/servers/CakeCraftSeasons2-1.20.4/fabricmods/optionalon/waveycapes-fabric-1.4.10-mc1.20.4.jar",
+            "MD5": "7b671937395a70f3d57673afc59a5681"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "com.sk89q:worldedit:7.3.0+6678-55745ad@jar",
+          "name": "WorldEdit",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 6122896,
+            "url": "https://lib.hotcup.app/servers/CakeCraftSeasons2-1.20.4/fabricmods/optionalon/worldedit-mod-7.3.0.jar",
+            "MD5": "af542558ba94a7e329b53d7c2e373b4d"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "org.enginehub:worldeditcui:1.20.3+01@jar",
+          "name": "WorldEditCUI",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 643900,
+            "url": "https://lib.hotcup.app/servers/CakeCraftSeasons2-1.20.4/fabricmods/optionalon/WorldEditCUI-1.20.3+01.jar",
+            "MD5": "02e10aee6cee458ebe8231b1110e6cff"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "xaero.minimap:xaerominimap:24.6.1@jar",
+          "name": "Xaero's Minimap",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1639838,
+            "url": "https://lib.hotcup.app/servers/CakeCraftSeasons2-1.20.4/fabricmods/optionaloff/Xaeros_Minimap_24.6.1_Fabric_1.20.4.jar",
+            "MD5": "68d8d5f9f053135d4eb354b642c8540e"
+          },
+          "required": {
+            "value": false,
+            "def": false
+          }
+        },
+        {
+          "id": "xaero.map:xaeroworldmap:1.39.0@jar",
+          "name": "Xaero's World Map",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 951498,
+            "url": "https://lib.hotcup.app/servers/CakeCraftSeasons2-1.20.4/fabricmods/optionalon/XaerosWorldMap_1.39.0_Fabric_1.20.4.jar",
+            "MD5": "ff58bf5022ebd0c59a16dc550ed03b9b"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "dev.isxander.yacl3.platform:yet_another_config_lib_v3:3.6.1+1.20.4-fabric@jar",
+          "name": "YetAnotherConfigLib",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1169261,
+            "url": "https://lib.hotcup.app/servers/CakeCraftSeasons2-1.20.4/fabricmods/required/YetAnotherConfigLib-3.6.1+1.20.4-fabric.jar",
+            "MD5": "6505fa7f844ef9c3ec66d435c259c1e7"
+          }
+        },
+        {
+          "id": "com.yungnickyoung.minecraft:yungsapi:1.20.4-Fabric-4.4.3@jar",
+          "name": "YUNG's API",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1213129,
+            "url": "https://lib.hotcup.app/servers/CakeCraftSeasons2-1.20.4/fabricmods/required/YungsApi-1.20.4-Fabric-4.4.3.jar",
+            "MD5": "d57b63789c021205539c5f289c4eb6fe"
+          }
+        },
+        {
+          "id": "com.yungnickyoung.minecraft:yungsmenutweaks:1.20.4-Fabric-1.4.1@jar",
+          "name": "YUNG's Menu Tweaks",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 281724,
+            "url": "https://lib.hotcup.app/servers/CakeCraftSeasons2-1.20.4/fabricmods/required/YungsMenuTweaks-1.20.4-Fabric-1.4.1.jar",
+            "MD5": "7e3f63539bc959b3022c9b3efd70312c"
+          }
+        },
+        {
+          "id": "dev.isxander:zoomify:2.14.2+1.20.4@jar",
+          "name": "Zoomify",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 807874,
+            "url": "https://lib.hotcup.app/servers/CakeCraftSeasons2-1.20.4/fabricmods/optionalon/Zoomify-2.14.2+1.20.4.jar",
+            "MD5": "cf99ab393d527fda2e146206ac447a5d"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "Aurora's Shaders.zip",
+          "name": "Aurora's Shaders.zip",
+          "type": "File",
+          "artifact": {
+            "size": 403760,
+            "url": "https://lib.hotcup.app/servers/CakeCraftSeasons2-1.20.4/files/shaderpacks/Aurora's%20Shaders.zip",
+            "MD5": "a951c95c99f3310602030d65edd46ba3",
+            "path": "shaderpacks/Aurora's Shaders.zip"
+          }
+        },
+        {
+          "id": "ComplementaryReimagined_r5.3.zip",
+          "name": "ComplementaryReimagined_r5.3.zip",
+          "type": "File",
+          "artifact": {
+            "size": 446656,
+            "url": "https://lib.hotcup.app/servers/CakeCraftSeasons2-1.20.4/files/shaderpacks/ComplementaryReimagined_r5.3.zip",
+            "MD5": "16aed916088bde7a7e4a252e3d7ebcda",
+            "path": "shaderpacks/ComplementaryReimagined_r5.3.zip"
+          }
+        },
+        {
+          "id": "ComplementaryUnbound_r5.3.zip",
+          "name": "ComplementaryUnbound_r5.3.zip",
+          "type": "File",
+          "artifact": {
+            "size": 446661,
+            "url": "https://lib.hotcup.app/servers/CakeCraftSeasons2-1.20.4/files/shaderpacks/ComplementaryUnbound_r5.3.zip",
+            "MD5": "50893f00c06b63dfd140dbcac22cc69f",
+            "path": "shaderpacks/ComplementaryUnbound_r5.3.zip"
+          }
+        },
+        {
+          "id": "MakeUp-UtraFast-9.0.c.zip",
+          "name": "MakeUp-UtraFast-9.0.c.zip",
+          "type": "File",
+          "artifact": {
+            "size": 362010,
+            "url": "https://lib.hotcup.app/servers/CakeCraftSeasons2-1.20.4/files/shaderpacks/MakeUp-UtraFast-9.0.c.zip",
+            "MD5": "0b091053b74ef2239b0ef6acf58e660f",
+            "path": "shaderpacks/MakeUp-UtraFast-9.0.c.zip"
+          }
+        },
+        {
+          "id": "rethinking-voxels_r0.1-beta5.zip",
+          "name": "rethinking-voxels_r0.1-beta5.zip",
+          "type": "File",
+          "artifact": {
+            "size": 556919,
+            "url": "https://lib.hotcup.app/servers/CakeCraftSeasons2-1.20.4/files/shaderpacks/rethinking-voxels_r0.1-beta5.zip",
+            "MD5": "14327a45963b04502231eb9470ccd220",
+            "path": "shaderpacks/rethinking-voxels_r0.1-beta5.zip"
+          }
+        },
+        {
+          "id": "TAA Project.zip",
+          "name": "TAA Project.zip",
+          "type": "File",
+          "artifact": {
+            "size": 14268,
+            "url": "https://lib.hotcup.app/servers/CakeCraftSeasons2-1.20.4/files/shaderpacks/TAA%20Project.zip",
+            "MD5": "e47f3e1cb763c81d5464e672a8fb492c",
+            "path": "shaderpacks/TAA Project.zip"
+          }
+        }
+      ]
     }
   ]
 }
