@@ -12,7 +12,7 @@
       "largeImageKey": "cakecraft"
     },
     "mainServer": true,
-    "autoconnect": true
+    "autoconnect": false
   },
   "fabric": {
     "version": "0.16.9"
