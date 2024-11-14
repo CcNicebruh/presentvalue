@@ -2367,6 +2367,16 @@
           }
         },
         {
+          "id": "earth.terrarium:handcrafted:3.2.1@jar",
+          "name": "Handcrafted",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 7104588,
+            "url": "https://lib.hotcup.app/servers/CakeCraftSeasons2-1.20.4/fabricmods/required/handcrafted-fabric-1.20.4-3.2.1.jar",
+            "MD5": "9608b05c4b62491b37252344f1bced0b"
+          }
+        },
+        {
           "id": "ru.vidtu:ias:9.0.0@jar",
           "name": "In-Game Account Switcher",
           "type": "FabricMod",
@@ -2464,6 +2474,16 @@
             "size": 716022,
             "url": "https://lib.hotcup.app/servers/CakeCraftSeasons2-1.20.4/fabricmods/required/lithium-fabric-mc1.20.4-0.12.1.jar",
             "MD5": "83da6729d5402dc42eca740a96f97346"
+          }
+        },
+        {
+          "id": "net.lyivx:ls_furniture:1.0.3-SNAPSHOT@jar",
+          "name": "LYIVX's Furniture Mod",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 3942010,
+            "url": "https://lib.hotcup.app/servers/CakeCraftSeasons2-1.20.4/fabricmods/required/ls_furniture-1.0.3-SNAPSHOT-Fabric-1.20.4.jar",
+            "MD5": "6ba10db1d5b39bf6e0ac798b3965db6f"
           }
         },
         {
@@ -2767,6 +2787,16 @@
             "size": 1482770,
             "url": "https://lib.hotcup.app/servers/CakeCraftSeasons2-1.20.4/fabricmods/required/reignitedhud-fabric-1.20.4-1.1.0.jar",
             "MD5": "ea1db1939f0c64e608a62eb5793dc6ab"
+          }
+        },
+        {
+          "id": "com.teamresourceful:resourcefullib:2.4.10@jar",
+          "name": "Resourceful Lib",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 440662,
+            "url": "https://lib.hotcup.app/servers/CakeCraftSeasons2-1.20.4/fabricmods/required/resourcefullib-fabric-1.20.4-2.4.10.jar",
+            "MD5": "2546853251192bdfc5a74335a90d7d3d"
           }
         },
         {
