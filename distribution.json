@@ -2642,8 +2642,12 @@
           "type": "FabricMod",
           "artifact": {
             "size": 25367204,
-            "url": "https://lib.hotcup.app/servers/cakecraftseasons2-fixes-1.20.4/fabricmods/required/ModernUI-Fabric-1.20.4-3.11.0.2-universal.jar.disabled",
+            "url": "https://lib.hotcup.app/servers/cakecraftseasons2-fixes-1.20.4/fabricmods/optionaloff/ModernUI-Fabric-1.20.4-3.11.0.2-universal.jar.disabled",
             "MD5": "d3ffc079e15cc28a9b16ff5c16d28150"
+          },
+          "required": {
+            "value": false,
+            "def": false
           }
         },
         {
@@ -2742,8 +2746,12 @@
           "type": "FabricMod",
           "artifact": {
             "size": 223118,
-            "url": "https://lib.hotcup.app/servers/cakecraftseasons2-fixes-1.20.4/fabricmods/required/Paxi-1.20.4-Fabric-4.4.1.jar.disabled",
+            "url": "https://lib.hotcup.app/servers/cakecraftseasons2-fixes-1.20.4/fabricmods/optionaloff/Paxi-1.20.4-Fabric-4.4.1.jar.disabled",
             "MD5": "02fbd48c0daea659650d84064eab35ad"
+          },
+          "required": {
+            "value": false,
+            "def": false
           }
         },
         {
