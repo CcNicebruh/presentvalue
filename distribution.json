@@ -1440,6 +1440,32 @@
           }
         },
         {
+          "id": "dev.imb11:flow:2.1.2+1.20.4@jar",
+          "name": "Flow",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2771983,
+            "url": "https://lib.hotcup.app/servers/CakeCraftNetworkHighschool-1.20.4/fabricmods/optionalon/flow-2.1.2+1.20.4.jar",
+            "MD5": "c71f3034eb52413a9ca78f63b802b634"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "net.xolt:freecam:1.2.3@jar",
+          "name": "Freecam (Modrinth Edition)",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1084134,
+            "url": "https://lib.hotcup.app/servers/CakeCraftNetworkHighschool-1.20.4/fabricmods/optionalon/freecam-fabric-modrinth-1.2.3+1.20.4.jar",
+            "MD5": "5bac1bce5cf062596b5c26c9bf7c3682"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
           "id": "generated.fabricmod:immediatelyfast:1.3.0+1.20.4@jar",
           "name": "ImmediatelyFast",
           "type": "FabricMod",
@@ -1457,6 +1483,19 @@
             "size": 105350,
             "url": "https://lib.hotcup.app/servers/CakeCraftNetworkHighschool-1.20.4/fabricmods/required/indium-1.0.31+mc1.20.4.jar",
             "MD5": "86d20afc613763546f51452ef893be82"
+          }
+        },
+        {
+          "id": "org.anti_ad.mc.ipnext:inventoryprofilesnext:1.10.11@jar",
+          "name": "Inventory Profiles Next",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1449161,
+            "url": "https://lib.hotcup.app/servers/CakeCraftNetworkHighschool-1.20.4/fabricmods/optionalon/InventoryProfilesNext-fabric-1.20.3-1.10.11.jar",
+            "MD5": "bde03824fd240010db2eab46d56701a7"
+          },
+          "required": {
+            "value": false
           }
         },
         {
@@ -1503,6 +1542,33 @@
           }
         },
         {
+          "id": "org.anti_ad.mc:libipn:4.0.2@jar",
+          "name": "LibIPN",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 703031,
+            "url": "https://lib.hotcup.app/servers/CakeCraftNetworkHighschool-1.20.4/fabricmods/optionalon/libIPN-fabric-1.20.3-4.0.2.jar",
+            "MD5": "c12d98447b5c3a5caba5df97a9c71168"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "fi.dy.masa:litematica:0.17.3@jar",
+          "name": "Litematica",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 929750,
+            "url": "https://lib.hotcup.app/servers/CakeCraftNetworkHighschool-1.20.4/fabricmods/optionaloff/litematica-fabric-1.20.4-0.17.3.jar",
+            "MD5": "f795e83e09f9d022f95c9c4b8b1c94d4"
+          },
+          "required": {
+            "value": false,
+            "def": false
+          }
+        },
+        {
           "id": "me.jellysquid.mods:lithium:0.12.1@jar",
           "name": "Lithium",
           "type": "FabricMod",
@@ -1510,6 +1576,19 @@
             "size": 716022,
             "url": "https://lib.hotcup.app/servers/CakeCraftNetworkHighschool-1.20.4/fabricmods/required/lithium-fabric-mc1.20.4-0.12.1.jar",
             "MD5": "83da6729d5402dc42eca740a96f97346"
+          }
+        },
+        {
+          "id": "fi.dy.masa:malilib:0.18.3@jar",
+          "name": "MaLiLib",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 746577,
+            "url": "https://lib.hotcup.app/servers/CakeCraftNetworkHighschool-1.20.4/fabricmods/optionalon/malilib-fabric-1.20.4-0.18.3.jar",
+            "MD5": "d2cb8d0364d6a90e58d960c22f19763d"
+          },
+          "required": {
+            "value": false
           }
         },
         {
@@ -1616,6 +1695,19 @@
           }
         },
         {
+          "id": "me.jfenn.scoreboardoverhaul:scoreboard-overhaul:1.2.2-mc1.20.4@jar",
+          "name": "Scoreboard Overhaul",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 7244958,
+            "url": "https://lib.hotcup.app/servers/CakeCraftNetworkHighschool-1.20.4/fabricmods/optionalon/scoreboardoverhaul-1.2.2-mc1.20.4.jar",
+            "MD5": "81380b9361ce6ecff7f00db453494fda"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
           "id": "net.mcvader:seriousplayeranimations:1.1.1@jar",
           "name": "Serious Player Animations",
           "type": "FabricMod",
@@ -1648,11 +1740,12 @@
           "type": "FabricMod",
           "artifact": {
             "size": 20051296,
-            "url": "https://lib.hotcup.app/servers/CakeCraftNetworkHighschool-1.20.4/fabricmods/optionalon/smoothgui-0.1.0.jar",
+            "url": "https://lib.hotcup.app/servers/CakeCraftNetworkHighschool-1.20.4/fabricmods/optionaloff/smoothgui-0.1.0.jar",
             "MD5": "e943d303116d97075f69a0cdf5bcffdc"
           },
           "required": {
-            "value": false
+            "value": false,
+            "def": false
           }
         },
         {
@@ -1696,6 +1789,61 @@
             "size": 126410,
             "url": "https://lib.hotcup.app/servers/CakeCraftNetworkHighschool-1.20.4/fabricmods/required/starlight-1.1.3+fabric.f5dcd1a.jar",
             "MD5": "e4b2c577ba4501b8cc29c7217eeaf108"
+          }
+        },
+        {
+          "id": "com.spyxar:tiptapshow:1.6.0+1.20.4@jar",
+          "name": "TipTapShow",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 103114,
+            "url": "https://lib.hotcup.app/servers/CakeCraftNetworkHighschool-1.20.4/fabricmods/optionaloff/tiptapshow-1.6.0+1.20.4.jar",
+            "MD5": "d153c9663e95e0b68de48fc07e1a1b9b"
+          },
+          "required": {
+            "value": false,
+            "def": false
+          }
+        },
+        {
+          "id": "generated.fabricmod:tooltipfix:1.1.1-1.20@jar",
+          "name": "ToolTip Fix",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 12432,
+            "url": "https://lib.hotcup.app/servers/CakeCraftNetworkHighschool-1.20.4/fabricmods/optionalon/tooltipfix-1.1.1-1.20.jar",
+            "MD5": "492430f451d89f7fe2d7b8410c9748ac"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "xaero.minimap:xaerominimap:24.6.1@jar",
+          "name": "Xaero's Minimap",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1639838,
+            "url": "https://lib.hotcup.app/servers/CakeCraftNetworkHighschool-1.20.4/fabricmods/optionaloff/Xaeros_Minimap_24.6.1_Fabric_1.20.4.jar",
+            "MD5": "68d8d5f9f053135d4eb354b642c8540e"
+          },
+          "required": {
+            "value": false,
+            "def": false
+          }
+        },
+        {
+          "id": "xaero.map:xaeroworldmap:1.39.0@jar",
+          "name": "Xaero's World Map",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 951498,
+            "url": "https://lib.hotcup.app/servers/CakeCraftNetworkHighschool-1.20.4/fabricmods/optionaloff/XaerosWorldMap_1.39.0_Fabric_1.20.4.jar",
+            "MD5": "ff58bf5022ebd0c59a16dc550ed03b9b"
+          },
+          "required": {
+            "value": false,
+            "def": false
           }
         },
         {
