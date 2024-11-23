@@ -1642,6 +1642,16 @@
           }
         },
         {
+          "id": "dev.imb11.loader:mru:1.0.3+1.20.4+fabric@jar",
+          "name": "Mineblock's Repeated Utilities",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 104277,
+            "url": "https://lib.hotcup.app/servers/CakeCraftNetworkHighschool-1.20.4/fabricmods/required/MRU-1.0.3+1.20.4+fabric.jar",
+            "MD5": "c5acccbba9cbf8460cb0b1e26ac7076e"
+          }
+        },
+        {
           "id": "opekope2.optigui:optigui:2.1.7@jar",
           "name": "OptiGUI",
           "type": "FabricMod",
