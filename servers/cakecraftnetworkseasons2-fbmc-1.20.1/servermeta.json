@@ -2,20 +2,20 @@
   "$schema": "file:///C:/Users/ccnic/Desktop/real/schemas/ServerMetaSchema.schema.json",
   "meta": {
     "version": "1.0.0",
-    "name": "CakeCraft Network (Highschool)",
-    "description": "A funnest minecraft server for everyone to play Minecraft together!",
+    "name": "CakeCraft Seasons 2 | (Early Access)",
+    "description": "A server for everyone.",
     "icon": "https://github.com/CcNicebruh/presentvalue/blob/main/modpack/CakeCraftNetwork/image/cakecraft.png?raw=true",
     "address": "cch.hotcup.app:25565",
     "discord": {
-      "shortId": "CakeCraft Network | Highschool",
-      "largeImageText": "CakeCraft Network",
+      "shortId": "CakeCraft Seasons 2 | Early Access",
+      "largeImageText": "CakeCraft",
       "largeImageKey": "cakecraft"
     },
-    "mainServer": false,
+    "mainServer": true,
     "autoconnect": false
   },
   "fabric": {
-    "version": "0.16.9"
+    "version": "0.16.8"
   },
   "untrackedFiles": []
 }
